@@ -152,6 +152,32 @@ the other index. Model inputs are truncated at 256 wordpieces. Prices are
 historical INR values. Evaluation defaults to `data/lab-3/evaluation-results.json`.
 Pass `--output PATH` to preserve an existing result during a comparison run.
 
+## Lab 4: Hybrid Retrieval and RAG
+
+Use the project Python 3.12 virtual environment. Install the updated
+`requirements.txt` and build the Lab 3 indexes if needed. Start Ollama and
+run `ollama pull qwen2.5:3b`. The CLI uses its local API on port 11434.
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m src.rag_lab4 --mode bm25 "Samsung Galaxy A3 tempered glass"
+.\.venv\Scripts\python.exe -m src.rag_lab4 --mode hybrid "A battery-free USB lamp"
+.\.venv\Scripts\python.exe -m src.rag_lab4 --mode compare --json "An aquarium filter for salt and fresh water"
+.\.venv\Scripts\python.exe -m src.rag_lab4 "A flexible USB light up to INR 200"
+.\.venv\Scripts\python.exe -m unittest discover -s tests -p "test_lab*.py"
+```
+
+Retrieval modes do not require Ollama. `--top-k` controls the number of
+retrieval results. RAG passes up to five chunks to Ollama and validates the
+selected chunk and evidence IDs against that context. It copies the
+quotes and historical prices from the catalog. A separate Ollama call
+checks the quoted evidence against the requested product type
+and features. RAG returns up to two recommendations or reports insufficient
+context when the retrieved evidence does not support a match.
+Use an explicit maximum such as `up to INR 200` (inclusive) or
+`under INR 200` (exclusive). Prices come from the historical INR catalog.
+Use `--ollama-port` if the local API listens on another port.
+
 ## Author
 
 GitHub: [TopoliukNure](https://github.com/TopoliukNure)

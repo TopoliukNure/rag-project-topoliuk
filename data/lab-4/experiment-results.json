@@ -1,0 +1,1150 @@
+{
+  "retrieval_config": {
+    "chunks": 1208,
+    "dense_ef_search": 10,
+    "rrf_k": 60,
+    "candidates_per_ranker": 30
+  },
+  "comparison_queries": [
+    {
+      "kind": "purpose",
+      "query": "An aquarium filter for both marine and fresh water",
+      "top_3": {
+        "dense": [
+          {
+            "chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+            "title": "Rs Electrical RS-8500 Top Filter 3 in 1 More Function Power Aquarium Filter",
+            "category": "Pet Supplies",
+            "discounted_price": 698,
+            "currency": "INR",
+            "score": 0.5652981996536255
+          },
+          {
+            "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+            "title": "Taino My Fun Fish Self Cleaning Tank Rectangle Plastic Pet Bowl",
+            "category": "Pet Supplies",
+            "discounted_price": 649,
+            "currency": "INR",
+            "score": 0.5432482957839966
+          },
+          {
+            "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+            "title": "SAY RO Membrane Housing Set Solid Filter Cartridge",
+            "category": "Home Improvement",
+            "discounted_price": 249,
+            "currency": "INR",
+            "score": 0.4652330279350281
+          }
+        ],
+        "bm25": [
+          {
+            "chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+            "title": "Rs Electrical RS-8500 Top Filter 3 in 1 More Function Power Aquarium Filter",
+            "category": "Pet Supplies",
+            "discounted_price": 698,
+            "currency": "INR",
+            "score": 37.72232217126615
+          },
+          {
+            "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+            "title": "Taino My Fun Fish Self Cleaning Tank Rectangle Plastic Pet Bowl",
+            "category": "Pet Supplies",
+            "discounted_price": 649,
+            "currency": "INR",
+            "score": 22.06050448728002
+          },
+          {
+            "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+            "title": "SAY RO Membrane Housing Set Solid Filter Cartridge",
+            "category": "Home Improvement",
+            "discounted_price": 249,
+            "currency": "INR",
+            "score": 18.608095873916366
+          }
+        ],
+        "hybrid": [
+          {
+            "chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+            "title": "Rs Electrical RS-8500 Top Filter 3 in 1 More Function Power Aquarium Filter",
+            "category": "Pet Supplies",
+            "discounted_price": 698,
+            "currency": "INR",
+            "score": 0.03278688524590164
+          },
+          {
+            "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+            "title": "Taino My Fun Fish Self Cleaning Tank Rectangle Plastic Pet Bowl",
+            "category": "Pet Supplies",
+            "discounted_price": 649,
+            "currency": "INR",
+            "score": 0.03225806451612903
+          },
+          {
+            "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+            "title": "SAY RO Membrane Housing Set Solid Filter Cartridge",
+            "category": "Home Improvement",
+            "discounted_price": 249,
+            "currency": "INR",
+            "score": 0.031746031746031744
+          }
+        ]
+      },
+      "manual_retrieval_review": "All three rankers led with RS-8500. The chunk explicitly lists salt and fresh water."
+    },
+    {
+      "kind": "specification",
+      "query": "Samsung Galaxy A3 A300 9H screen protector",
+      "top_3": {
+        "dense": [
+          {
+            "chunk_id": "flipkart:ACCE6RHSYPAB8TBH:0000",
+            "title": "Nillkin G09 Tempered Glass for Samsung Galaxy A3(A300)",
+            "category": "Mobiles & Accessories",
+            "discounted_price": 440,
+            "currency": "INR",
+            "score": 0.5553224682807922
+          },
+          {
+            "chunk_id": "flipkart:ACCEGR4ZHHMWSMFM:0000",
+            "title": "Protector Moto E XT1021 Tempered Glass for Motorola Moto E",
+            "category": "Mobiles & Accessories",
+            "discounted_price": 169,
+            "currency": "INR",
+            "score": 0.4854603409767151
+          },
+          {
+            "chunk_id": "flipkart:ACCEGQXFX2FRTRC7:0000",
+            "title": "Protector Xiaomi Redmi Note Prime Tempered Glass for Note Prime",
+            "category": "Mobiles & Accessories",
+            "discounted_price": 169,
+            "currency": "INR",
+            "score": 0.4622858762741089
+          }
+        ],
+        "bm25": [
+          {
+            "chunk_id": "flipkart:ACCE6RHSYPAB8TBH:0000",
+            "title": "Nillkin G09 Tempered Glass for Samsung Galaxy A3(A300)",
+            "category": "Mobiles & Accessories",
+            "discounted_price": 440,
+            "currency": "INR",
+            "score": 53.12518804861
+          },
+          {
+            "chunk_id": "flipkart:ACCEC87TREZYJJPE:0000",
+            "title": "AMZER Back Cover for Samsung Galaxy Tab A 9.7 SM-T550 , Samsung Galaxy Tab A 9.7 SM-T555",
+            "category": "Mobiles & Accessories",
+            "discounted_price": 1299,
+            "currency": "INR",
+            "score": 20.019277803976912
+          },
+          {
+            "chunk_id": "flipkart:ACCEGQXFX2FRTRC7:0000",
+            "title": "Protector Xiaomi Redmi Note Prime Tempered Glass for Note Prime",
+            "category": "Mobiles & Accessories",
+            "discounted_price": 169,
+            "currency": "INR",
+            "score": 19.945491559252417
+          }
+        ],
+        "hybrid": [
+          {
+            "chunk_id": "flipkart:ACCE6RHSYPAB8TBH:0000",
+            "title": "Nillkin G09 Tempered Glass for Samsung Galaxy A3(A300)",
+            "category": "Mobiles & Accessories",
+            "discounted_price": 440,
+            "currency": "INR",
+            "score": 0.03278688524590164
+          },
+          {
+            "chunk_id": "flipkart:ACCEGR4ZHHMWSMFM:0000",
+            "title": "Protector Moto E XT1021 Tempered Glass for Motorola Moto E",
+            "category": "Mobiles & Accessories",
+            "discounted_price": 169,
+            "currency": "INR",
+            "score": 0.031754032258064516
+          },
+          {
+            "chunk_id": "flipkart:ACCEGQXFX2FRTRC7:0000",
+            "title": "Protector Xiaomi Redmi Note Prime Tempered Glass for Note Prime",
+            "category": "Mobiles & Accessories",
+            "discounted_price": 169,
+            "currency": "INR",
+            "score": 0.031746031746031744
+          }
+        ]
+      },
+      "manual_retrieval_review": "All three led with Nillkin G09. The source names Samsung Galaxy A3/A300 and 9H hardness."
+    },
+    {
+      "kind": "product_name",
+      "query": "Harissons Split 26 L Backpack",
+      "top_3": {
+        "dense": [
+          {
+            "chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+            "title": "Harissons Split 26 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1099,
+            "currency": "INR",
+            "score": 0.8072518110275269
+          },
+          {
+            "chunk_id": "flipkart:BKPEGXYVX4CG7UWX:0000",
+            "title": "Harissons Ultimo 32 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1299,
+            "currency": "INR",
+            "score": 0.6320386528968811
+          },
+          {
+            "chunk_id": "flipkart:BKPEGXYWWJPETZZA:0000",
+            "title": "Harissons Ergo 26 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1849,
+            "currency": "INR",
+            "score": 0.6215865612030029
+          }
+        ],
+        "bm25": [
+          {
+            "chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+            "title": "Harissons Split 26 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1099,
+            "currency": "INR",
+            "score": 46.20654672065525
+          },
+          {
+            "chunk_id": "flipkart:BKPEGXYWWJPETZZA:0000",
+            "title": "Harissons Ergo 26 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1849,
+            "currency": "INR",
+            "score": 34.3688632529263
+          },
+          {
+            "chunk_id": "flipkart:BKPEGXYVX4CG7UWX:0000",
+            "title": "Harissons Ultimo 32 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1299,
+            "currency": "INR",
+            "score": 26.443111862130273
+          }
+        ],
+        "hybrid": [
+          {
+            "chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+            "title": "Harissons Split 26 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1099,
+            "currency": "INR",
+            "score": 0.03278688524590164
+          },
+          {
+            "chunk_id": "flipkart:BKPEGXYVX4CG7UWX:0000",
+            "title": "Harissons Ultimo 32 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1299,
+            "currency": "INR",
+            "score": 0.03200204813108039
+          },
+          {
+            "chunk_id": "flipkart:BKPEGXYWWJPETZZA:0000",
+            "title": "Harissons Ergo 26 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1849,
+            "currency": "INR",
+            "score": 0.03200204813108039
+          }
+        ]
+      },
+      "manual_retrieval_review": "All three led with the named Harissons Split 26 L backpack."
+    },
+    {
+      "kind": "paraphrase",
+      "query": "A bendable reading light powered by my notebook computer without batteries",
+      "top_3": {
+        "dense": [
+          {
+            "chunk_id": "flipkart:USGEE5RFHDHCRFSU:0000",
+            "title": "Memore Portable and Flexible Lamp MMULL-Green USB Led Light",
+            "category": "Computers",
+            "discounted_price": 195,
+            "currency": "INR",
+            "score": 0.5639804005622864
+          },
+          {
+            "chunk_id": "flipkart:USGEE3GGGGYWM8ZZ:0000",
+            "title": "Memore Portable and Flexible MMULL-White USB Led Light",
+            "category": "Computers",
+            "discounted_price": 195,
+            "currency": "INR",
+            "score": 0.5599292516708374
+          },
+          {
+            "chunk_id": "flipkart:USGEE27EHJBEYVVA:0000",
+            "title": "Memore Portable and Flexible LED Light Lamp MMULL-SkyBlue USB Led Light",
+            "category": "Computers",
+            "discounted_price": 190,
+            "currency": "INR",
+            "score": 0.5578711628913879
+          }
+        ],
+        "bm25": [
+          {
+            "chunk_id": "flipkart:USGEDX249AJ5XFKT:0000",
+            "title": "DGB Flexi Touch X-11 USB Led Light",
+            "category": "Computers",
+            "discounted_price": 259,
+            "currency": "INR",
+            "score": 35.288348893578096
+          },
+          {
+            "chunk_id": "flipkart:USGECNEZPYBCAWGU:0000",
+            "title": "KARP Ultra Bright 28 LEDs USB Lights (White) LED LIGHT- Wht-4 USB Led Light",
+            "category": "Computers",
+            "discounted_price": 599,
+            "currency": "INR",
+            "score": 33.041419842524746
+          },
+          {
+            "chunk_id": "flipkart:USGEDX249AJ5XFKT:0001",
+            "title": "DGB Flexi Touch X-11 USB Led Light",
+            "category": "Computers",
+            "discounted_price": 259,
+            "currency": "INR",
+            "score": 28.270637569551283
+          }
+        ],
+        "hybrid": [
+          {
+            "chunk_id": "flipkart:USGEE5RFHDHCRFSU:0000",
+            "title": "Memore Portable and Flexible Lamp MMULL-Green USB Led Light",
+            "category": "Computers",
+            "discounted_price": 195,
+            "currency": "INR",
+            "score": 0.032018442622950824
+          },
+          {
+            "chunk_id": "flipkart:USGEDX249AJ5XFKT:0000",
+            "title": "DGB Flexi Touch X-11 USB Led Light",
+            "category": "Computers",
+            "discounted_price": 259,
+            "currency": "INR",
+            "score": 0.031544957774465976
+          },
+          {
+            "chunk_id": "flipkart:USGEDX249AJ5XFKT:0001",
+            "title": "DGB Flexi Touch X-11 USB Led Light",
+            "category": "Computers",
+            "discounted_price": 259,
+            "currency": "INR",
+            "score": 0.03125763125763126
+          }
+        ]
+      },
+      "manual_retrieval_review": "Dense and RRF led with Memore Green. BM25 led with DGB X-11, whose chunk explicitly says it does not need batteries."
+    },
+    {
+      "kind": "explicit_constraints",
+      "query": "Three 15-foot male-to-female HDMI extension leads with audio return channel",
+      "top_3": {
+        "dense": [
+          {
+            "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0000",
+            "title": "C&E TV-out Cable High Speed HDMI Cable Male to Female 15 Feet, 3 Pack",
+            "category": "Home Entertainment",
+            "discounted_price": 1699,
+            "currency": "INR",
+            "score": 0.5479797720909119
+          },
+          {
+            "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0000",
+            "title": "C&E TV-out Cable High Speed HDMI Extension Cable Male - Female - 20 Feet, Supports Ethernet Latest Specification Cable",
+            "category": "Gaming",
+            "discounted_price": 999,
+            "currency": "INR",
+            "score": 0.5353332757949829
+          },
+          {
+            "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0001",
+            "title": "C&E TV-out Cable High Speed HDMI Cable Male to Female 15 Feet, 3 Pack",
+            "category": "Home Entertainment",
+            "discounted_price": 1699,
+            "currency": "INR",
+            "score": 0.4943506717681885
+          }
+        ],
+        "bm25": [
+          {
+            "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0000",
+            "title": "C&E TV-out Cable High Speed HDMI Extension Cable Male - Female - 20 Feet, Supports Ethernet Latest Specification Cable",
+            "category": "Gaming",
+            "discounted_price": 999,
+            "currency": "INR",
+            "score": 55.77816334118614
+          },
+          {
+            "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0001",
+            "title": "C&E TV-out Cable High Speed HDMI Extension Cable Male - Female - 20 Feet, Supports Ethernet Latest Specification Cable",
+            "category": "Gaming",
+            "discounted_price": 999,
+            "currency": "INR",
+            "score": 52.269677255180206
+          },
+          {
+            "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0000",
+            "title": "C&E TV-out Cable High Speed HDMI Cable Male to Female 15 Feet, 3 Pack",
+            "category": "Home Entertainment",
+            "discounted_price": 1699,
+            "currency": "INR",
+            "score": 51.531385116152244
+          }
+        ],
+        "hybrid": [
+          {
+            "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0000",
+            "title": "C&E TV-out Cable High Speed HDMI Extension Cable Male - Female - 20 Feet, Supports Ethernet Latest Specification Cable",
+            "category": "Gaming",
+            "discounted_price": 999,
+            "currency": "INR",
+            "score": 0.03252247488101534
+          },
+          {
+            "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0000",
+            "title": "C&E TV-out Cable High Speed HDMI Cable Male to Female 15 Feet, 3 Pack",
+            "category": "Home Entertainment",
+            "discounted_price": 1699,
+            "currency": "INR",
+            "score": 0.032266458495966696
+          },
+          {
+            "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0001",
+            "title": "C&E TV-out Cable High Speed HDMI Extension Cable Male - Female - 20 Feet, Supports Ethernet Latest Specification Cable",
+            "category": "Gaming",
+            "discounted_price": 999,
+            "currency": "INR",
+            "score": 0.0315136476426799
+          }
+        ]
+      },
+      "manual_retrieval_review": "Dense led with the requested 15-foot three-pack. BM25 and RRF led with a 20-foot cable. A high retrieval rank alone does not establish all requested constraints."
+    }
+  ],
+  "budget_checks": [
+    {
+      "query": "Rs Electrical RS-8500 aquarium filter up to INR 698",
+      "max_price_inr": 698,
+      "target_chunk_found": true,
+      "top_5": [
+        {
+          "chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+          "title": "Rs Electrical RS-8500 Top Filter 3 in 1 More Function Power Aquarium Filter",
+          "category": "Pet Supplies",
+          "discounted_price": 698,
+          "currency": "INR",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+          "title": "SAY RO Membrane Housing Set Solid Filter Cartridge",
+          "category": "Home Improvement",
+          "discounted_price": 249,
+          "currency": "INR",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+          "title": "Taino My Fun Fish Self Cleaning Tank Rectangle Plastic Pet Bowl",
+          "category": "Pet Supplies",
+          "discounted_price": 649,
+          "currency": "INR",
+          "score": 0.03125763125763126
+        },
+        {
+          "chunk_id": "flipkart:SCHE669Q8QF3AJNX:0000",
+          "title": "Avita 15 One Way Electrical Switch",
+          "category": "Home Improvement",
+          "discounted_price": 57,
+          "currency": "INR",
+          "score": 0.02862400327131466
+        },
+        {
+          "chunk_id": "flipkart:VHREB3ZYZSEMKBGH:0000",
+          "title": "Speedwav Tuk Tuk Reverse Gear Safety -Chevrolet Sail 200 dB Vehicle Horn",
+          "category": "Automotive",
+          "discounted_price": 278,
+          "currency": "INR",
+          "score": 0.027529761904761904
+        }
+      ]
+    },
+    {
+      "query": "Rs Electrical RS-8500 aquarium filter under INR 698",
+      "max_price_inr": 697,
+      "target_chunk_found": false,
+      "top_5": [
+        {
+          "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+          "title": "SAY RO Membrane Housing Set Solid Filter Cartridge",
+          "category": "Home Improvement",
+          "discounted_price": 249,
+          "currency": "INR",
+          "score": 0.031544957774465976
+        },
+        {
+          "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+          "title": "Taino My Fun Fish Self Cleaning Tank Rectangle Plastic Pet Bowl",
+          "category": "Pet Supplies",
+          "discounted_price": 649,
+          "currency": "INR",
+          "score": 0.0315136476426799
+        },
+        {
+          "chunk_id": "flipkart:SCHE669Q8QF3AJNX:0000",
+          "title": "Avita 15 One Way Electrical Switch",
+          "category": "Home Improvement",
+          "discounted_price": 57,
+          "currency": "INR",
+          "score": 0.026736111111111113
+        },
+        {
+          "chunk_id": "flipkart:VHREB3NZEN8HGQHT:0000",
+          "title": "Speedwav Tuk Tuk Reverse Gear Safety -Ford Ikon 200 dB Vehicle Horn",
+          "category": "Automotive",
+          "discounted_price": 278,
+          "currency": "INR",
+          "score": 0.01639344262295082
+        },
+        {
+          "chunk_id": "flipkart:VHREB3ZYZSEMKBGH:0000",
+          "title": "Speedwav Tuk Tuk Reverse Gear Safety -Chevrolet Sail 200 dB Vehicle Horn",
+          "category": "Automotive",
+          "discounted_price": 278,
+          "currency": "INR",
+          "score": 0.016129032258064516
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "model": "qwen2.5:3b",
+    "preflight": {
+      "available": false,
+      "error": "Ollama at 127.0.0.1:11434: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение"
+    },
+    "examples": [
+      {
+        "query": "An aquarium filter for both marine and fresh water",
+        "status": "ollama_unavailable",
+        "error": "Ollama at 127.0.0.1:11434: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение",
+        "answer_generated": false
+      },
+      {
+        "query": "Samsung Galaxy A3 A300 9H screen protector",
+        "status": "ollama_unavailable",
+        "error": "Ollama at 127.0.0.1:11434: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение",
+        "answer_generated": false
+      },
+      {
+        "query": "Harissons Split 26 L Backpack",
+        "status": "ollama_unavailable",
+        "error": "Ollama at 127.0.0.1:11434: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение",
+        "answer_generated": false
+      },
+      {
+        "query": "A bendable reading light powered by my notebook computer without batteries",
+        "status": "ollama_unavailable",
+        "error": "Ollama at 127.0.0.1:11434: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение",
+        "answer_generated": false
+      },
+      {
+        "query": "Three 15-foot male-to-female HDMI extension leads with audio return channel",
+        "status": "ollama_unavailable",
+        "error": "Ollama at 127.0.0.1:11434: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение",
+        "answer_generated": false
+      },
+      {
+        "query": "Where can I renew a Canadian passport and what documents do I need?",
+        "status": "ollama_unavailable",
+        "error": "Ollama at 127.0.0.1:11434: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение",
+        "answer_generated": false
+      },
+      {
+        "query": "An aquarium filter under INR 1",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": 0,
+        "context_chunk_ids": [],
+        "generation_attempts": 0,
+        "validation_errors": [],
+        "recommendations": [],
+        "status": "insufficient_context",
+        "message": "No catalog products meet the available constraints.",
+        "answer_generated": false
+      }
+    ],
+    "startup_error": ".ollama directory creation was denied on this Windows host.",
+    "model_files_downloaded_and_sha256_verified": true,
+    "real_model_answers_generated": 0,
+    "historical_preflight_only": true
+  },
+  "checks": {
+    "cli_identical_across_two_processes": true,
+    "missing_index_exit": 1,
+    "empty_query_exit": 2,
+    "ollama_unavailable_exit": 1,
+    "rrf_formula_and_order_verified_for_comparison_queries": 5,
+    "lab3_and_lab4_unit_tests_passed": 25,
+    "lab4_unit_tests_passed": 17
+  },
+  "live_relevance_experiment": {
+    "model": "qwen2.5:3b",
+    "model_digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "backend": "Ollama local /api/chat",
+    "aquarium_top_five_source_review": [
+      {
+        "chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+        "title": "Rs Electrical RS-8500 Top Filter 3 in 1 More Function Power Aquarium Filter",
+        "matches_request": true,
+        "source_excerpt": "Suitable For: Salt Water and Fresh Water",
+        "reason": "A power aquarium filter whose specifications explicitly list both types of water."
+      },
+      {
+        "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+        "title": "Taino My Fun Fish Self Cleaning Tank Rectangle Plastic Pet Bowl",
+        "matches_request": false,
+        "source_excerpt": "Requires no power cords, no batteries or filters",
+        "reason": "A self-cleaning aquarium bowl, with no filter included or required."
+      },
+      {
+        "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+        "title": "SAY RO Membrane Housing Set Solid Filter Cartridge",
+        "matches_request": false,
+        "source_excerpt": "Used For: All Domestic RO Systems and Water Filters",
+        "reason": "A reverse-osmosis housing for domestic water purification."
+      },
+      {
+        "chunk_id": "flipkart:USGEE2FECFENWUNS:0001",
+        "title": "ShadowFax Handheld Mini Air Conditioner Mini Cooler USB USB Fan",
+        "matches_request": false,
+        "source_excerpt": "Type: USB Fan",
+        "reason": "A USB fan with an evaporative cooling filter."
+      },
+      {
+        "chunk_id": "flipkart:PCSE4SFFJSWJZVH4:0000",
+        "title": "Yuccabe Italia Stella Yellow Self Watering Planter Plant Container Set",
+        "matches_request": false,
+        "source_excerpt": "Stella self-watering planter has an outer reservoir shell",
+        "reason": "A self-watering planter with a reservoir."
+      }
+    ],
+    "requests": [
+      {
+        "request_number": 1,
+        "result": {
+          "query": "An aquarium filter for both marine and fresh water",
+          "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+          "model": "qwen2.5:3b",
+          "max_price_inr": null,
+          "context_chunk_ids": [
+            "flipkart:AQFEF4Q84KDGNGAF:0000",
+            "flipkart:PBLEGVW8CGQF2TMF:0000",
+            "flipkart:WFCEGE8AWTDDUAMC:0000",
+            "flipkart:USGEE2FECFENWUNS:0001",
+            "flipkart:PCSE4SFFJSWJZVH4:0000"
+          ],
+          "generation_attempts": 1,
+          "validation_errors": [],
+          "relevance_review_attempts": 1,
+          "rejected_chunk_ids": [],
+          "recommendations": [
+            {
+              "chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+              "document_id": "flipkart:AQFEF4Q84KDGNGAF",
+              "title": "Rs Electrical RS-8500 Top Filter 3 in 1 More Function Power Aquarium Filter",
+              "category": "Pet Supplies",
+              "discounted_price": 698,
+              "currency": "INR",
+              "evidence": "RS-8500 Top Filter - Aquarium 3 in 1 More Function Brand: Rs Electrical Model Number: RS-8500 Type: Power Filtration Type: Mechanical Suitable For: Salt Water and Fresh Water"
+            }
+          ],
+          "status": "ok"
+        },
+        "model_calls": [
+          {
+            "stage": "selection",
+            "raw_output": "{\"status\": \"ok\", \"recommendations\": [{\"chunk_id\": \"flipkart:AQFEF4Q84KDGNGAF:0000\", \"evidence_id\": \"1.3\"}, {\"chunk_id\": \"flipkart:AQFEF4Q84KDGNGAF:0000\", \"evidence_id\": \"1.5\"}]}"
+          },
+          {
+            "stage": "relevance_review",
+            "raw_output": "{\"accepted_chunk_ids\": [\"flipkart:AQFEF4Q84KDGNGAF:0000\"]}"
+          }
+        ],
+        "elapsed_seconds": 32.39,
+        "retrieved": [
+          {
+            "chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+            "title": "Rs Electrical RS-8500 Top Filter 3 in 1 More Function Power Aquarium Filter",
+            "discounted_price": 698
+          },
+          {
+            "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+            "title": "Taino My Fun Fish Self Cleaning Tank Rectangle Plastic Pet Bowl",
+            "discounted_price": 649
+          },
+          {
+            "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+            "title": "SAY RO Membrane Housing Set Solid Filter Cartridge",
+            "discounted_price": 249
+          },
+          {
+            "chunk_id": "flipkart:USGEE2FECFENWUNS:0001",
+            "title": "ShadowFax Handheld Mini Air Conditioner Mini Cooler USB USB Fan",
+            "discounted_price": 999
+          },
+          {
+            "chunk_id": "flipkart:PCSE4SFFJSWJZVH4:0000",
+            "title": "Yuccabe Italia Stella Yellow Self Watering Planter Plant Container Set",
+            "discounted_price": 750
+          }
+        ],
+        "manual_review": {
+          "passed": true,
+          "observation": "Only RS-8500 returned. Two source excerpts proposed for the same product were consolidated. The retained verbatim excerpt states mechanical filtration for salt and fresh water. Canonical price is 698 INR."
+        }
+      },
+      {
+        "request_number": 2,
+        "result": {
+          "query": "An aquarium filter for both marine and fresh water up to INR 698",
+          "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+          "model": "qwen2.5:3b",
+          "max_price_inr": 698,
+          "context_chunk_ids": [
+            "flipkart:AQFEF4Q84KDGNGAF:0000",
+            "flipkart:PBLEGVW8CGQF2TMF:0000",
+            "flipkart:WFCEGE8AWTDDUAMC:0000",
+            "flipkart:BOTEEMN6NM57HSBU:0000",
+            "flipkart:SGLEJG6VTTSYHMBD:0000"
+          ],
+          "generation_attempts": 1,
+          "validation_errors": [],
+          "relevance_review_attempts": 1,
+          "rejected_chunk_ids": [],
+          "recommendations": [
+            {
+              "chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+              "document_id": "flipkart:AQFEF4Q84KDGNGAF",
+              "title": "Rs Electrical RS-8500 Top Filter 3 in 1 More Function Power Aquarium Filter",
+              "category": "Pet Supplies",
+              "discounted_price": 698,
+              "currency": "INR",
+              "evidence": "RS-8500 Top Filter - Aquarium 3 in 1 More Function Brand: Rs Electrical Model Number: RS-8500 Type: Power Filtration Type: Mechanical Suitable For: Salt Water and Fresh Water"
+            }
+          ],
+          "status": "ok"
+        },
+        "model_calls": [
+          {
+            "stage": "selection",
+            "raw_output": "{\"status\": \"ok\", \"recommendations\": [{\"chunk_id\": \"flipkart:AQFEF4Q84KDGNGAF:0000\", \"evidence_id\": \"1.3\"}, {\"chunk_id\": \"flipkart:AQFEF4Q84KDGNGAF:0000\", \"evidence_id\": \"1.5\"}]}"
+          },
+          {
+            "stage": "relevance_review",
+            "raw_output": "{\"accepted_chunk_ids\": [\"flipkart:AQFEF4Q84KDGNGAF:0000\"]}"
+          }
+        ],
+        "elapsed_seconds": 24.44,
+        "retrieved": [
+          {
+            "chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+            "title": "Rs Electrical RS-8500 Top Filter 3 in 1 More Function Power Aquarium Filter",
+            "discounted_price": 698
+          },
+          {
+            "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+            "title": "Taino My Fun Fish Self Cleaning Tank Rectangle Plastic Pet Bowl",
+            "discounted_price": 649
+          },
+          {
+            "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+            "title": "SAY RO Membrane Housing Set Solid Filter Cartridge",
+            "discounted_price": 249
+          },
+          {
+            "chunk_id": "flipkart:BOTEEMN6NM57HSBU:0000",
+            "title": "Omic Poto-Blue 1000 ml Sipper",
+            "discounted_price": 549
+          },
+          {
+            "chunk_id": "flipkart:SGLEJG6VTTSYHMBD:0000",
+            "title": "Silver Kartz Beach Sky Blue Wayfarer, Rectangular Sunglasses",
+            "discounted_price": 269
+          }
+        ],
+        "manual_review": {
+          "passed": true,
+          "observation": "The inclusive ceiling retains RS-8500 at exactly 698 INR. The same compatibility statement is quoted."
+        }
+      },
+      {
+        "request_number": 3,
+        "result": {
+          "query": "An aquarium filter for both marine and fresh water under INR 698",
+          "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+          "model": "qwen2.5:3b",
+          "max_price_inr": 697,
+          "context_chunk_ids": [
+            "flipkart:PBLEGVW8CGQF2TMF:0000",
+            "flipkart:WFCEGE8AWTDDUAMC:0000",
+            "flipkart:BOTEEMN6NM57HSBU:0000",
+            "flipkart:CSPEGMVJJDYAYQYG:0000",
+            "flipkart:BEOEHHQZYG2VSX6W:0000"
+          ],
+          "generation_attempts": 1,
+          "validation_errors": [],
+          "relevance_review_attempts": 0,
+          "rejected_chunk_ids": [],
+          "recommendations": [],
+          "status": "insufficient_context",
+          "message": "The retrieved catalog evidence does not support a match."
+        },
+        "model_calls": [
+          {
+            "stage": "selection",
+            "raw_output": "{\"status\": \"insufficient_context\", \"recommendations\": []}"
+          }
+        ],
+        "elapsed_seconds": 13.66,
+        "retrieved": [
+          {
+            "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+            "title": "Taino My Fun Fish Self Cleaning Tank Rectangle Plastic Pet Bowl",
+            "discounted_price": 649
+          },
+          {
+            "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+            "title": "SAY RO Membrane Housing Set Solid Filter Cartridge",
+            "discounted_price": 249
+          },
+          {
+            "chunk_id": "flipkart:BOTEEMN6NM57HSBU:0000",
+            "title": "Omic Poto-Blue 1000 ml Sipper",
+            "discounted_price": 549
+          },
+          {
+            "chunk_id": "flipkart:CSPEGMVJJDYAYQYG:0000",
+            "title": "Selfcare Women's Camisole",
+            "discounted_price": 380
+          },
+          {
+            "chunk_id": "flipkart:BEOEHHQZYG2VSX6W:0000",
+            "title": "Himalayan Sutra Peppermint Essential Oil -Therapeutic Grade",
+            "discounted_price": 249
+          }
+        ],
+        "manual_review": {
+          "passed": true,
+          "observation": "The strict ceiling is 697 INR and excludes RS-8500. The selector returned insufficient context. The in-budget Taino bowl and SAY RO housing still appeared in the retrieved context."
+        }
+      },
+      {
+        "request_number": 4,
+        "result": {
+          "query": "A tempered glass screen protector for Samsung Galaxy A3 A300 with 9H hardness up to INR 440",
+          "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+          "model": "qwen2.5:3b",
+          "max_price_inr": 440,
+          "context_chunk_ids": [
+            "flipkart:ACCE6RHSYPAB8TBH:0000",
+            "flipkart:ACCEGQXFX2FRTRC7:0000",
+            "flipkart:ACCEGR4ZHHMWSMFM:0000",
+            "flipkart:ACCEGRYUMK6MDDX2:0000",
+            "flipkart:CUTDTXFGNGUGSKXH:0000"
+          ],
+          "generation_attempts": 1,
+          "validation_errors": [],
+          "relevance_review_attempts": 1,
+          "rejected_chunk_ids": [],
+          "recommendations": [
+            {
+              "chunk_id": "flipkart:ACCE6RHSYPAB8TBH:0000",
+              "document_id": "flipkart:ACCE6RHSYPAB8TBH",
+              "title": "Nillkin G09 Tempered Glass for Samsung Galaxy A3(A300)",
+              "category": "Mobiles & Accessories",
+              "discounted_price": 440,
+              "currency": "INR",
+              "evidence": "of screen. It supports anti-glare coating to prevent glare derivative. Used tempered glass, its hardness up to 9H; scratch-resistant flowers and blowout. Its surface used Nanometer thin oil"
+            }
+          ],
+          "status": "ok"
+        },
+        "model_calls": [
+          {
+            "stage": "selection",
+            "raw_output": "{\"status\": \"ok\", \"recommendations\": [{\"chunk_id\": \"flipkart:ACCE6RHSYPAB8TBH:0000\", \"evidence_id\": \"1.1\"}, {\"chunk_id\": \"flipkart:ACCE6RHSYPAB8TBH:0000\", \"evidence_id\": \"1.2\"}]}"
+          },
+          {
+            "stage": "relevance_review",
+            "raw_output": "{\"accepted_chunk_ids\": [\"flipkart:ACCE6RHSYPAB8TBH:0000\"]}"
+          }
+        ],
+        "elapsed_seconds": 22.33,
+        "retrieved": [
+          {
+            "chunk_id": "flipkart:ACCE6RHSYPAB8TBH:0000",
+            "title": "Nillkin G09 Tempered Glass for Samsung Galaxy A3(A300)",
+            "discounted_price": 440
+          },
+          {
+            "chunk_id": "flipkart:ACCEGQXFX2FRTRC7:0000",
+            "title": "Protector Xiaomi Redmi Note Prime Tempered Glass for Note Prime",
+            "discounted_price": 169
+          },
+          {
+            "chunk_id": "flipkart:ACCEGR4ZHHMWSMFM:0000",
+            "title": "Protector Moto E XT1021 Tempered Glass for Motorola Moto E",
+            "discounted_price": 169
+          },
+          {
+            "chunk_id": "flipkart:ACCEGRYUMK6MDDX2:0000",
+            "title": "Buynow Glass_54 Tempered Glass for Xiaomi Mi 4S",
+            "discounted_price": 279
+          },
+          {
+            "chunk_id": "flipkart:CUTDTXFGNGUGSKXH:0000",
+            "title": "Stanley 14-125 Glass Cutter",
+            "discounted_price": 149
+          }
+        ],
+        "manual_review": {
+          "passed": true,
+          "observation": "Nillkin G09 at exactly 440 INR. The title gives compatibility with Galaxy A3(A300) and the verbatim excerpt explicitly gives tempered glass and 9H hardness."
+        }
+      },
+      {
+        "request_number": 5,
+        "result": {
+          "query": "A Harissons Split backpack with a 26 L capacity",
+          "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+          "model": "qwen2.5:3b",
+          "max_price_inr": null,
+          "context_chunk_ids": [
+            "flipkart:BKPEGXYVHZBG2PUY:0000",
+            "flipkart:BKPEGXYVX4CG7UWX:0000",
+            "flipkart:BKPEGXYWWJPETZZA:0000",
+            "flipkart:BKPEGXWHXG4GZWET:0000",
+            "flipkart:BKPEGUJHJFYS4FCU:0000"
+          ],
+          "generation_attempts": 1,
+          "validation_errors": [],
+          "relevance_review_attempts": 1,
+          "rejected_chunk_ids": [],
+          "recommendations": [
+            {
+              "chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+              "document_id": "flipkart:BKPEGXYVHZBG2PUY",
+              "title": "Harissons Split 26 L Backpack",
+              "category": "Bags, Wallets & Belts",
+              "discounted_price": 1099,
+              "currency": "INR",
+              "evidence": "Type: Backpack Laptop Sleeve: No Material: Polyester Style Code: HB1020 Capacity: 26 L Ideal For: Men,"
+            }
+          ],
+          "status": "ok"
+        },
+        "model_calls": [
+          {
+            "stage": "selection",
+            "raw_output": "{\n  \"status\": \"ok\",\n  \"recommendations\": [\n    {\n      \"chunk_id\": \"flipkart:BKPEGXYVHZBG2PUY:0000\",\n      \"evidence_id\": \"1.1\"\n    }\n  ]\n}"
+          },
+          {
+            "stage": "relevance_review",
+            "raw_output": "{\"accepted_chunk_ids\": [\"flipkart:BKPEGXYVHZBG2PUY:0000\"]}"
+          }
+        ],
+        "elapsed_seconds": 21.44,
+        "retrieved": [
+          {
+            "chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+            "title": "Harissons Split 26 L Backpack",
+            "discounted_price": 1099
+          },
+          {
+            "chunk_id": "flipkart:BKPEGXYVX4CG7UWX:0000",
+            "title": "Harissons Ultimo 32 L Backpack",
+            "discounted_price": 1299
+          },
+          {
+            "chunk_id": "flipkart:BKPEGXYWWJPETZZA:0000",
+            "title": "Harissons Ergo 26 L Backpack",
+            "discounted_price": 1849
+          },
+          {
+            "chunk_id": "flipkart:BKPEGXWHXG4GZWET:0000",
+            "title": "SVVM SMGRNBLK01BP 25 L Backpack",
+            "discounted_price": 529
+          },
+          {
+            "chunk_id": "flipkart:BKPEGUJHJFYS4FCU:0000",
+            "title": "The House of Tara Go-Getter 19 L Backpack",
+            "discounted_price": 1099
+          }
+        ],
+        "manual_review": {
+          "passed": true,
+          "observation": "Harissons Split 26 L Backpack is the requested model and the verbatim excerpt states the capacity."
+        }
+      },
+      {
+        "request_number": 6,
+        "result": {
+          "query": "Can you renew my Canadian passport?",
+          "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+          "model": "qwen2.5:3b",
+          "max_price_inr": null,
+          "context_chunk_ids": [
+            "flipkart:LTNEHQSPHYAHDKCG:0000",
+            "flipkart:SHVDKAYXPNNHWZAD:0000",
+            "flipkart:RFREHGN3X3FHM4YY:0002",
+            "flipkart:TDHEGVZKK3SXYZSC:0000",
+            "flipkart:BMDEGVYEE6HXZJCK:0001"
+          ],
+          "generation_attempts": 1,
+          "validation_errors": [],
+          "relevance_review_attempts": 0,
+          "rejected_chunk_ids": [],
+          "recommendations": [],
+          "status": "insufficient_context",
+          "message": "The retrieved catalog evidence does not support a match."
+        },
+        "model_calls": [
+          {
+            "stage": "selection",
+            "raw_output": "{\"status\": \"insufficient_context\", \"recommendations\": []}"
+          }
+        ],
+        "elapsed_seconds": 12.17,
+        "retrieved": [
+          {
+            "chunk_id": "flipkart:LTNEHQSPHYAHDKCG:0000",
+            "title": "SHOPOJ Multicolor Paper Sky Lantern",
+            "discounted_price": 825
+          },
+          {
+            "chunk_id": "flipkart:SHVDKAYXPNNHWZAD:0000",
+            "title": "Philips QG3383 7-in-1 Multigrooming Pro",
+            "discounted_price": 3232
+          },
+          {
+            "chunk_id": "flipkart:RFREHGN3X3FHM4YY:0002",
+            "title": "Haier 247 L Frost Free Double Door Refrigerator",
+            "discounted_price": 19460
+          },
+          {
+            "chunk_id": "flipkart:TDHEGVZKK3SXYZSC:0000",
+            "title": "KAN Long Travel Passport Organizer & Cheque Book Pouch Document Holder with Zip For Men and Women",
+            "discounted_price": 795
+          },
+          {
+            "chunk_id": "flipkart:BMDEGVYEE6HXZJCK:0001",
+            "title": "NITGEN Fingkey Access Plus-HID Time & Attendance, Access Control, Door Locks",
+            "discounted_price": 36575
+          }
+        ],
+        "manual_review": {
+          "passed": true,
+          "observation": "Passport renewal is a service outside the catalog. A passport organizer in the retrieved context did not become a recommendation."
+        }
+      },
+      {
+        "request_number": 7,
+        "result": {
+          "query": "A male-to-male HDMI cable, 15 feet long, sold as a pack of 3, with ARC",
+          "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+          "model": "qwen2.5:3b",
+          "max_price_inr": null,
+          "context_chunk_ids": [
+            "flipkart:ACCEJHFJGSY6WSV7:0000",
+            "flipkart:ACCEHKGNZCXWRVFM:0000",
+            "flipkart:ACCEJHFJGSY6WSV7:0001",
+            "flipkart:ACCEHKGNZCXWRVFM:0002",
+            "flipkart:ACCEJHFJGSY6WSV7:0002"
+          ],
+          "generation_attempts": 1,
+          "validation_errors": [],
+          "relevance_review_attempts": 1,
+          "rejected_chunk_ids": [
+            "flipkart:ACCEJHFJGSY6WSV7:0000"
+          ],
+          "recommendations": [],
+          "status": "insufficient_context",
+          "message": "The retrieved catalog evidence does not support a match."
+        },
+        "model_calls": [
+          {
+            "stage": "selection",
+            "raw_output": "{\"status\": \"ok\", \"recommendations\": [{\"chunk_id\": \"flipkart:ACCEJHFJGSY6WSV7:0000\", \"evidence_id\": \"1.2\"}, {\"chunk_id\": \"flipkart:ACCEJHFJGSY6WSV7:0002\", \"evidence_id\": \"5.2\"}]}"
+          },
+          {
+            "stage": "relevance_review",
+            "raw_output": "{\"accepted_chunk_ids\": []}"
+          }
+        ],
+        "elapsed_seconds": 20.78,
+        "retrieved": [
+          {
+            "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0000",
+            "title": "C&E TV-out Cable High Speed HDMI Cable Male to Female 15 Feet, 3 Pack",
+            "discounted_price": 1699
+          },
+          {
+            "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0000",
+            "title": "C&E TV-out Cable High Speed HDMI Extension Cable Male - Female - 20 Feet, Supports Ethernet Latest Specification Cable",
+            "discounted_price": 999
+          },
+          {
+            "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0001",
+            "title": "C&E TV-out Cable High Speed HDMI Cable Male to Female 15 Feet, 3 Pack",
+            "discounted_price": 1699
+          },
+          {
+            "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0002",
+            "title": "C&E TV-out Cable High Speed HDMI Extension Cable Male - Female - 20 Feet, Supports Ethernet Latest Specification Cable",
+            "discounted_price": 999
+          },
+          {
+            "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0002",
+            "title": "C&E TV-out Cable High Speed HDMI Cable Male to Female 15 Feet, 3 Pack",
+            "discounted_price": 1699
+          }
+        ],
+        "manual_review": {
+          "passed": true,
+          "observation": "The selector proposed two chunks for the same C&E HDMI product. The reviewer rejected it because the pack lists male-to-female connectors and the request requires male-to-male."
+        }
+      }
+    ],
+    "development_run": {
+      "selection_format": "generated evidence string",
+      "hdmi_request_status": "unverified",
+      "hdmi_invalid_attempts": 2,
+      "change": "Select a chunk-scoped evidence ID and copy the source excerpt in Python."
+    },
+    "summary": {
+      "requests": 7,
+      "request_status_counts": {
+        "ok": 4,
+        "insufficient_context": 3
+      },
+      "passed_manual_review": 7,
+      "failed_manual_review": 0,
+      "real_selection_calls": 7,
+      "real_relevance_review_calls": 5,
+      "invalid_selection_or_review_attempts": 0,
+      "unittest_passed": 33
+    }
+  }
+}
