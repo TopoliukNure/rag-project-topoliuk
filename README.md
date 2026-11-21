@@ -112,6 +112,46 @@ in Labs 3–5.
 4. **Lab 4:** Retrieval Algorithms and Generation
 5. **Lab 5:** System Testing
 
+## Lab 3: Vector Representations
+
+Use Python 3.12. Install the verified CPU runtime and project dependencies
+in the existing virtual environment before running the Lab 3 commands:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.8.0
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+Run from the repository root on Windows:
+
+```powershell
+.\.venv\Scripts\python.exe -m src.index_lab3
+.\.venv\Scripts\python.exe -m src.search_lab3 "A bendable USB lamp for my laptop"
+.\.venv\Scripts\python.exe -m src.evaluate_lab3
+.\.venv\Scripts\python.exe -m unittest discover -s tests -p "test_lab3.py"
+```
+
+On Windows, if the repository path contains non-ASCII characters, use a
+persistent ASCII directory for Chroma. To persist local paths across shells,
+create the ignored file `config/lab3.local.json`:
+
+```json
+{
+  "index_root": "C:/path/with/ascii/SmartProductFinder/chroma",
+  "model_cache": "C:/path/with/ascii/SmartProductFinder/huggingface/hub"
+}
+```
+
+The first run downloads the pinned MiniLM model into the configured cache.
+`SMART_PRODUCT_INDEX_ROOT` or `--index-root` can override the index location.
+`HF_HOME` or `HF_HUB_CACHE` can override the model cache.
+
+Chroma uses cosine distance with HNSW `ef_search` set to 10 or 100. The CLI
+displays cosine similarity as `1 - distance`. Use `--config ef100` to select
+the other index. Model inputs are truncated at 256 wordpieces. Prices are
+historical INR values. Evaluation defaults to `data/lab-3/evaluation-results.json`.
+Pass `--output PATH` to preserve an existing result during a comparison run.
+
 ## Author
 
 GitHub: [TopoliukNure](https://github.com/TopoliukNure)

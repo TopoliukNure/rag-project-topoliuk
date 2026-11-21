@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .idea/
 .env
+/data/lab-3/chroma/
+/config/lab3.local.json
+/.venv-python314-backup/

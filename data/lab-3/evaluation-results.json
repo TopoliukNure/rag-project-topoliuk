@@ -1,0 +1,892 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "normalized": true,
+  "dimension": 384,
+  "vectors_per_index": 1208,
+  "metric": "cosine",
+  "similarity": "1 - cosine distance",
+  "corpus_sha256": "af62e074dd34cca87cde021e7008a15db28adf908f1c7bd2e24bf024f2de94c8",
+  "eval_sha256": "b0d60c00ab8b82a0cc7d00348d91fee8ff2e7073e279ca5be673d564c3aeda9d",
+  "query_count": 20,
+  "configs": [
+    {
+      "config": "ef10",
+      "ef_search": 10,
+      "ef_construction": 100,
+      "index_bytes": 27847380,
+      "at_5": {
+        "recall": 0.7,
+        "successful": 14,
+        "unsuccessful": 6
+      },
+      "at_10": {
+        "recall": 0.85,
+        "successful": 17,
+        "unsuccessful": 3
+      },
+      "queries": [
+        {
+          "query_id": "q01",
+          "query": "What can I put on the side windows of my Alto K10 to block the sun, then take off easily?",
+          "relevant_chunk_id": "flipkart:SUDEGGATYHBGUFTF:0000",
+          "rationale": "Removable side-window sun shades for Maruti Alto K10.",
+          "relevant_rank": 4,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:SUDEGVGYPKQSBP8T:0000",
+            "flipkart:SUDEGGATCJNJGD9A:0000",
+            "flipkart:SUDEGVG4VNMYZWXT:0000",
+            "flipkart:SUDEGGATYHBGUFTF:0000",
+            "flipkart:SUDEGGAVHGYEQJAH:0000",
+            "flipkart:SUDEGGB473ACY9MF:0000",
+            "flipkart:SUDEGGBFNGESYFHT:0000",
+            "flipkart:SUDEGGAVT5ZMRSZA:0000",
+            "flipkart:SUDEGGAU7XR6PG2K:0000",
+            "flipkart:SUDEGGAVHRHX2GZV:0000"
+          ]
+        },
+        {
+          "query_id": "q02",
+          "query": "I want a set of little vinyl decals I can arrange myself across several painted walls.",
+          "relevant_chunk_id": "flipkart:STIE7KFHF7KGHTT3:0000",
+          "rationale": "75 vinyl stickers with a user-arranged layout for several walls.",
+          "relevant_rank": 10,
+          "hit_at_5": false,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:STIEEHYKHDNH7GFF:0000",
+            "flipkart:STIEC889KYMHUN3T:0000",
+            "flipkart:STIEC889ZD5GDCVQ:0000",
+            "flipkart:STIEGHKBGY635GPP:0000",
+            "flipkart:STIE88ZGTX65GH4V:0001",
+            "flipkart:STIE9F5UMQ2BTXRS:0000",
+            "flipkart:WLPEJ5VGBMZKHWAZ:0000",
+            "flipkart:STIEYZ5T5FF3RUKQ:0000",
+            "flipkart:STIEYZ5T5FF3RUKQ:0001",
+            "flipkart:STIE7KFHF7KGHTT3:0000"
+          ]
+        },
+        {
+          "query_id": "q03",
+          "query": "Find a lightweight travel rucksack with three sections, a bottle pocket and about 26 litres of room.",
+          "relevant_chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+          "rationale": "26 L polyester backpack with three compartments and a side mesh pocket.",
+          "relevant_rank": 7,
+          "hit_at_5": false,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:BKPEGXYVX4CG7UWX:0000",
+            "flipkart:RKSE8JZAPUG4AK3F:0000",
+            "flipkart:BKPEGXYWWJPETZZA:0000",
+            "flipkart:RKSEGKZVBEGUFNYT:0000",
+            "flipkart:RKSEAF7WYHJBVRHD:0000",
+            "flipkart:BKPEBAUXZVMGHBUG:0000",
+            "flipkart:BKPEGXYVHZBG2PUY:0000",
+            "flipkart:BKPEYQHB6J2PN9R4:0000",
+            "flipkart:SPBE2GVZMANCQNZW:0000",
+            "flipkart:BKPEGUJHJFYS4FCU:0000"
+          ]
+        },
+        {
+          "query_id": "q04",
+          "query": "I need assorted nail varnishes that dry quickly instead of keeping my hands idle for ages.",
+          "relevant_chunk_id": "flipkart:NLPEGUMNPUQXBWQY:0000",
+          "rationale": "Multicolour nail-polish combo listed as fast drying.",
+          "relevant_rank": 6,
+          "hit_at_5": false,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:PDKE9C4FSP77MRRF:0000",
+            "flipkart:PDKE9C4F8TDFKHMK:0000",
+            "flipkart:PDKE9C4FPDFDQSUW:0000",
+            "flipkart:SHOEJBFPSSWMUWQG:0001",
+            "flipkart:NLPEGUMZWFSEZSHZ:0000",
+            "flipkart:NLPEGUMNPUQXBWQY:0000",
+            "flipkart:NLPEGUMN6H7YZU9Y:0000",
+            "flipkart:SHOEDZZYZYGXGQZZ:0000",
+            "flipkart:SHOEDGFRHZD6HDBD:0000",
+            "flipkart:PTSDZUERRKENB2FV:0001"
+          ]
+        },
+        {
+          "query_id": "q05",
+          "query": "How can I fit more people into an indoor group photo with a 52 mm DSLR lens attachment?",
+          "relevant_chunk_id": "flipkart:LEAE8UKZFQRUTMAG:0000",
+          "rationale": "52 mm wide-angle attachment described for wider interiors and group photos.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:LEAE8UKZFQRUTMAG:0000",
+            "flipkart:LEAE8UKZFQRUTMAG:0001",
+            "flipkart:PHFEGTJJ5HD9FYGF:0000",
+            "flipkart:PHFEGBZFGSGMFAEV:0000",
+            "flipkart:SGLEJXKXJHNJJTWH:0000",
+            "flipkart:SPBDGGG8MYABNX6U:0000",
+            "flipkart:POSEH49H6VAUSEUZ:0000",
+            "flipkart:SGLEJJCW6JYDJZKH:0000",
+            "flipkart:FRAEGY86AYNQCGUN:0000",
+            "flipkart:CWDEGKMAD2BWGAWR:0001"
+          ]
+        },
+        {
+          "query_id": "q06",
+          "query": "Show me a casual men's crew neck for hot weather with a distressed skull graphic.",
+          "relevant_chunk_id": "flipkart:TSHDVZHNUVFGNGXD:0000",
+          "rationale": "Summer crew-neck tee with a distressed skull-and-crossbones print.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:TSHDVZHNUVFGNGXD:0000",
+            "flipkart:SHMECRNMPZGQZBWZ:0000",
+            "flipkart:SHMECRS4DDGBWMDZ:0000",
+            "flipkart:SHMECRRNMKDPFVNF:0000",
+            "flipkart:BDAEJFMFP3K6TCVE:0000",
+            "flipkart:SHMECQWKZVRQJVY7:0000",
+            "flipkart:SHMECRRMZRZKQEHM:0000",
+            "flipkart:SHMECRHENT38D2TD:0000",
+            "flipkart:SHMECRVFSV5NVUC2:0000",
+            "flipkart:SHMECRM3YRFDHSZS:0000"
+          ]
+        },
+        {
+          "query_id": "q07",
+          "query": "I need a little bendable lamp for my laptop that draws power from USB and needs no batteries.",
+          "relevant_chunk_id": "flipkart:USGEDSGQ9W2FYVYT:0000",
+          "rationale": "Flexible USB LED light described as battery-free and compatible with laptops.",
+          "relevant_rank": 5,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:USGEE5RFHDHCRFSU:0000",
+            "flipkart:USGEDX249AJ5XFKT:0001",
+            "flipkart:USGEE27EHJBEYVVA:0000",
+            "flipkart:USGEE3GG2SYFUCF6:0000",
+            "flipkart:USGEDSGQ9W2FYVYT:0000",
+            "flipkart:USGEE3GGGGYWM8ZZ:0000",
+            "flipkart:USGEBZZ3SVFAFF5E:0000",
+            "flipkart:USGEDX249AJ5XFKT:0000",
+            "flipkart:USGECNEZPYBCAWGU:0000",
+            "flipkart:USGEC8ARDDMVUS7V:0000"
+          ]
+        },
+        {
+          "query_id": "q08",
+          "query": "Do you have brown plastic wayfarer prescription frames for single-vision lenses that come with a protective case?",
+          "relevant_chunk_id": "flipkart:FRAEGWYAJZKS5RNK:0000",
+          "rationale": "Brown plastic wayfarer frame supports single-vision lenses and includes a hard case.",
+          "relevant_rank": 5,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:FRAEGY86AYNQCGUN:0000",
+            "flipkart:SGLEJJ6QZDYMJ7EY:0000",
+            "flipkart:SGLEJ8GVTZDGFGUJ:0000",
+            "flipkart:SGLEJJCW6JYDJZKH:0000",
+            "flipkart:FRAEGWYAJZKS5RNK:0000",
+            "flipkart:GOGEJ88FJUGSVM4K:0000",
+            "flipkart:SGLEJXKXJHNJJTWH:0000",
+            "flipkart:GOGEJ88FJUGSVM4K:0001",
+            "flipkart:GOGEHZ5P6TWYBFXB:0000",
+            "flipkart:SGLEJG6VTTSYHMBD:0000"
+          ]
+        },
+        {
+          "query_id": "q09",
+          "query": "I'm after men's casual slip-ons with a square toe and a rubber-like TPR sole.",
+          "relevant_chunk_id": "flipkart:SHOEDGFRHZD6HDBD:0000",
+          "rationale": "Men's casual slip-on loafers with square toe and TPR sole.",
+          "relevant_rank": null,
+          "hit_at_5": false,
+          "hit_at_10": false,
+          "retrieved_chunk_ids": [
+            "flipkart:SHOE68NHF93EP4VH:0000",
+            "flipkart:SNDEJTZGDSZFAU5F:0000",
+            "flipkart:SHOEHX7JCNXWHWHZ:0000",
+            "flipkart:SHOEGH57PWW9SBZU:0000",
+            "flipkart:SNDDVN24AHEAYBYM:0000",
+            "flipkart:SNDEGQ7NBVGASKHA:0000",
+            "flipkart:SFFEHBHYHYFGY63U:0000",
+            "flipkart:SHOEGHEEEZETGJNZ:0000",
+            "flipkart:SHOEJKQNFKGHKDWS:0000",
+            "flipkart:SHOEJQSJS2HJN5QX:0000"
+          ]
+        },
+        {
+          "query_id": "q10",
+          "query": "Find seating for one person for my living room, upholstered in imitation leather.",
+          "relevant_chunk_id": "flipkart:SOFE8HPYHNT7KUXG:0000",
+          "rationale": "One-seat leatherette sofa listed for a living room.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:SOFE8HPYHNT7KUXG:0000",
+            "flipkart:SOFE8HPYHFDGPFHV:0000",
+            "flipkart:SOFECYFA8R8T5HNG:0000",
+            "flipkart:SOFE8HPYGZCKGXFZ:0000",
+            "flipkart:SOFE8HPYPESPQRPD:0000",
+            "flipkart:SOFEB7MHGWTHZFVJ:0000",
+            "flipkart:SOFECYFAH37ZKUKW:0000",
+            "flipkart:SOFEE7ACTFUYMFGG:0000",
+            "flipkart:SOFEE8CG7UJ62T8F:0000",
+            "flipkart:SOFE8BZMZWJYZUWW:0000"
+          ]
+        },
+        {
+          "query_id": "q11",
+          "query": "I'd like wired in-ear headphones with punchy bass for a Samsung Grand Prime.",
+          "relevant_chunk_id": "flipkart:ACCEGG9VJJHGYPN4:0000",
+          "rationale": "Wired earbud headset listing explicitly mentions Grand Prime and deep bass.",
+          "relevant_rank": 2,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:ACCEGGAYF5HTP4RG:0000",
+            "flipkart:ACCEGG9VJJHGYPN4:0000",
+            "flipkart:ACCEJEEYFFEEGHR7:0000",
+            "flipkart:ACCEGGAYKTBCGT2R:0000",
+            "flipkart:ACCEGG9Z4QCZJZFJ:0000",
+            "flipkart:ACCEGGBTHFC95B56:0000",
+            "flipkart:ACCEGGAYDMUYE7SK:0000",
+            "flipkart:ACCEGGBSWNJB4QEF:0000",
+            "flipkart:ACCEGG9V98NCXGPE:0000",
+            "flipkart:ACCEGGBTG3HMNHNA:0000"
+          ]
+        },
+        {
+          "query_id": "q12",
+          "query": "Find a men's wet-and-dry grooming kit that includes tools for nose hair and beard detailing.",
+          "relevant_chunk_id": "flipkart:SHVDKAYXPNNHWZAD:0000",
+          "rationale": "Wet/dry men's trimmer with nose/detail trimmer and beard comb.",
+          "relevant_rank": null,
+          "hit_at_5": false,
+          "hit_at_10": false,
+          "retrieved_chunk_ids": [
+            "flipkart:SHVE9VHFFYAY8HBT:0000",
+            "flipkart:SHVEFNYPDZDWQCZW:0000",
+            "flipkart:SHVEFAS3RT9N63BU:0000",
+            "flipkart:SHMECRNMPZGQZBWZ:0000",
+            "flipkart:SHVEGZUHGVYZBRW8:0000",
+            "flipkart:SHMECRS4DDGBWMDZ:0000",
+            "flipkart:SHMECRVFSV5NVUC2:0000",
+            "flipkart:SHVD2H7URCYYAHAH:0000",
+            "flipkart:HACEGPF9YTZTXPJF:0000",
+            "flipkart:SHMECRRMZRZKQEHM:0000"
+          ]
+        },
+        {
+          "query_id": "q13",
+          "query": "I need a small single-door fridge around 190 litres with the freezer at the top.",
+          "relevant_chunk_id": "flipkart:RFREGWK39RY6V9ZQ:0000",
+          "rationale": "190 L direct-cool single-door refrigerator with top freezer.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:RFREGWK39RY6V9ZQ:0000",
+            "flipkart:RFREHGN3X3FHM4YY:0002",
+            "flipkart:RFREHGN3X3FHM4YY:0000",
+            "flipkart:RFREHGN3X3FHM4YY:0001",
+            "flipkart:RFREGWK39RY6V9ZQ:0001",
+            "flipkart:STIEEHYKHDNH7GFF:0001",
+            "flipkart:RFREGWK39RY6V9ZQ:0002",
+            "flipkart:USGEE2FECFENWUNS:0001",
+            "flipkart:MRCEGVVBSGYFZ4FN:0003",
+            "flipkart:AQFEF4Q84KDGNGAF:0000"
+          ]
+        },
+        {
+          "query_id": "q14",
+          "query": "Find a roughly 28-centimetre wall clock with hands and a quartz mechanism.",
+          "relevant_chunk_id": "flipkart:WCKE56UCFX5EG9ZK:0000",
+          "rationale": "28 cm analogue quartz wall clock.",
+          "relevant_rank": 4,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:WCKEDVH6ZYWJ2QCH:0001",
+            "flipkart:WCKEDVH6ZYWJ2QCH:0000",
+            "flipkart:WCKEGGGDUYZHCHJY:0000",
+            "flipkart:WCKE56UCFX5EG9ZK:0000",
+            "flipkart:WATEA6UGFGKZKDJC:0000",
+            "flipkart:WATECKRBTUPHUXPC:0000",
+            "flipkart:WATE9DX9E4YSRJSY:0000",
+            "flipkart:SHIEJNH8TTK9QJPJ:0000",
+            "flipkart:WATEHYHNCANKP5VZ:0000",
+            "flipkart:WATEHYHPZSDEGFBT:0000"
+          ]
+        },
+        {
+          "query_id": "q15",
+          "query": "I need three 15-foot male-to-female HDMI extension leads with support for audio return channel.",
+          "relevant_chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0000",
+          "rationale": "Three 15-foot male-to-female HDMI cables support Audio Return Channel.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:ACCEJHFJGSY6WSV7:0000",
+            "flipkart:ACCEHKGNZCXWRVFM:0000",
+            "flipkart:ACCEJHFJGSY6WSV7:0001",
+            "flipkart:ACCEHKGNZCXWRVFM:0002",
+            "flipkart:ACCEHKGNZCXWRVFM:0001",
+            "flipkart:ACCEJHFJGSY6WSV7:0002",
+            "flipkart:PPJEAJTT86WKA5G9:0001",
+            "flipkart:ACCEJHEKWCGVMTHH:0001",
+            "flipkart:ACCEGMPSDVAVNFPM:0000",
+            "flipkart:HTHEAZB2FUH9FVQE:0000"
+          ]
+        },
+        {
+          "query_id": "q16",
+          "query": "Looking for five soft square sofa pillows, roughly 40 cm across, with decorative buttons.",
+          "relevant_chunk_id": "flipkart:PLWEJS85EQAHQDSG:0000",
+          "rationale": "Five 40 cm cushions described as soft, with fancy buttons.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:PLWEJS85EQAHQDSG:0000",
+            "flipkart:SOFECYFAGGVMMWS7:0000",
+            "flipkart:CPCEJAHFPGUPNHJ2:0000",
+            "flipkart:CPCEGH8NHZHZDFXR:0000",
+            "flipkart:CPCEDGGNCV7AV7SX:0000",
+            "flipkart:SLIEEXZYYFHXTCZA:0000",
+            "flipkart:CPCEJ8GNEUGJERZG:0000",
+            "flipkart:CPCEDG4HQZHVAUKG:0000",
+            "flipkart:CPCEDAKFZZ4VHWGW:0000",
+            "flipkart:SOFE8HPYHNT7KUXG:0000"
+          ]
+        },
+        {
+          "query_id": "q17",
+          "query": "Can I buy a powered mechanical filter for an aquarium around 850 litres that works with both marine and fresh water?",
+          "relevant_chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+          "rationale": "Powered mechanical aquarium filter rated for 850 L and both water types.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:AQFEF4Q84KDGNGAF:0000",
+            "flipkart:PBLEGVW8CGQF2TMF:0000",
+            "flipkart:WFCEGE8AWTDDUAMC:0000",
+            "flipkart:GLSEGP36GJQSARZS:0000",
+            "flipkart:USGEE2FECFENWUNS:0001",
+            "flipkart:WBTEJEACBQ2BVUZJ:0000",
+            "flipkart:PCSE4SFFJSWJZVH4:0000",
+            "flipkart:WABEJFWDGJDEGED4:0000",
+            "flipkart:BOTEEMN6NM57HSBU:0000",
+            "flipkart:FSEEHXHFG6KCYVVU:0000"
+          ]
+        },
+        {
+          "query_id": "q18",
+          "query": "I want a 75 cm stability ball for core workouts with a pump and exercise instructions on the ball.",
+          "relevant_chunk_id": "flipkart:BALEEZ2A4SWPXJU4:0000",
+          "rationale": "75 cm gym ball with pump and exercises printed on its surface.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:BALEEZ2A4SWPXJU4:0000",
+            "flipkart:BALEEZ2BZZ3ZT99G:0000",
+            "flipkart:BALEJA4CVTGREHEU:0000",
+            "flipkart:BALEJA4CYQQTMYFZ:0000",
+            "flipkart:IFPE7828KFDGJKTZ:0000",
+            "flipkart:RAQEHGQZHNXYVKZW:0000",
+            "flipkart:IFPE7828KFDGJKTZ:0001",
+            "flipkart:BAAEGHPNYQ5JMZNZ:0000",
+            "flipkart:KITEGFBDSYZSVBKB:0000",
+            "flipkart:MASEHU6HAUFFJKHQ:0000"
+          ]
+        },
+        {
+          "query_id": "q19",
+          "query": "What ventilated construction hard hat has an adjustable chin strap and a ratchet fit?",
+          "relevant_chunk_id": "flipkart:SHMECQYPHGTFSGTG:0000",
+          "rationale": "Construction helmet lists ventilation ports, a ratchet harness and an adjustable chin strap.",
+          "relevant_rank": null,
+          "hit_at_5": false,
+          "hit_at_10": false,
+          "retrieved_chunk_ids": [
+            "flipkart:SHMECRS4DDGBWMDZ:0000",
+            "flipkart:SHMECRNMPZGQZBWZ:0000",
+            "flipkart:SHMECRVFSV5NVUC2:0000",
+            "flipkart:SHMECRRNMKDPFVNF:0000",
+            "flipkart:SHMECRRMZRZKQEHM:0000",
+            "flipkart:SHMECQWKZVRQJVY7:0000",
+            "flipkart:SHMECRM3YRFDHSZS:0000",
+            "flipkart:SHMECRM34HFHRFCN:0000",
+            "flipkart:SHMECRHENT38D2TD:0000",
+            "flipkart:SHMECRM3FAEEZ9PB:0000"
+          ]
+        },
+        {
+          "query_id": "q20",
+          "query": "Find an introductory Italian grammar workbook with practice exercises for someone learning the language.",
+          "relevant_chunk_id": "flipkart:DGBDNB4PQ8Z7HWMD:0000",
+          "rationale": "Beginner-oriented Italian grammar and workbook pairs grammar points with exercises.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:DGBDNB4PQ8Z7HWMD:0000",
+            "flipkart:DGBDFGE4UJQDEZSJ:0001",
+            "flipkart:DGBDFGE4UJQDEZSJ:0000",
+            "flipkart:LCHEG62YD3RKHXVX:0000",
+            "flipkart:BKPE79UX3AHF8JQR:0000",
+            "flipkart:SKIEJH4T9YCH2BCX:0000",
+            "flipkart:WATECHFU4QGFQEJG:0001",
+            "flipkart:SPBE3RJXPR9DZTPT:0001",
+            "flipkart:FABEGC2G3CVZUT5Y:0000",
+            "flipkart:WATECGG4W76YEBUB:0001"
+          ]
+        }
+      ]
+    },
+    {
+      "config": "ef100",
+      "ef_search": 100,
+      "ef_construction": 100,
+      "index_bytes": 27855572,
+      "at_5": {
+        "recall": 0.7,
+        "successful": 14,
+        "unsuccessful": 6
+      },
+      "at_10": {
+        "recall": 0.85,
+        "successful": 17,
+        "unsuccessful": 3
+      },
+      "queries": [
+        {
+          "query_id": "q01",
+          "query": "What can I put on the side windows of my Alto K10 to block the sun, then take off easily?",
+          "relevant_chunk_id": "flipkart:SUDEGGATYHBGUFTF:0000",
+          "rationale": "Removable side-window sun shades for Maruti Alto K10.",
+          "relevant_rank": 4,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:SUDEGVGYPKQSBP8T:0000",
+            "flipkart:SUDEGGATCJNJGD9A:0000",
+            "flipkart:SUDEGVG4VNMYZWXT:0000",
+            "flipkart:SUDEGGATYHBGUFTF:0000",
+            "flipkart:SUDEGGAVHGYEQJAH:0000",
+            "flipkart:SUDEGGATFPGVDHXA:0000",
+            "flipkart:SUDEGGB473ACY9MF:0000",
+            "flipkart:SUDEGGBFNGESYFHT:0000",
+            "flipkart:SUDEGGAVT5ZMRSZA:0000",
+            "flipkart:SUDEGGAU7XR6PG2K:0000"
+          ]
+        },
+        {
+          "query_id": "q02",
+          "query": "I want a set of little vinyl decals I can arrange myself across several painted walls.",
+          "relevant_chunk_id": "flipkart:STIE7KFHF7KGHTT3:0000",
+          "rationale": "75 vinyl stickers with a user-arranged layout for several walls.",
+          "relevant_rank": 10,
+          "hit_at_5": false,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:STIEEHYKHDNH7GFF:0000",
+            "flipkart:STIEC889KYMHUN3T:0000",
+            "flipkart:STIEC889ZD5GDCVQ:0000",
+            "flipkart:STIEGHKBGY635GPP:0000",
+            "flipkart:STIE88ZGTX65GH4V:0001",
+            "flipkart:STIE9F5UMQ2BTXRS:0000",
+            "flipkart:WLPEJ5VGBMZKHWAZ:0000",
+            "flipkart:STIEYZ5T5FF3RUKQ:0000",
+            "flipkart:STIEYZ5T5FF3RUKQ:0001",
+            "flipkart:STIE7KFHF7KGHTT3:0000"
+          ]
+        },
+        {
+          "query_id": "q03",
+          "query": "Find a lightweight travel rucksack with three sections, a bottle pocket and about 26 litres of room.",
+          "relevant_chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+          "rationale": "26 L polyester backpack with three compartments and a side mesh pocket.",
+          "relevant_rank": 7,
+          "hit_at_5": false,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:BKPEGXYVX4CG7UWX:0000",
+            "flipkart:RKSE8JZAPUG4AK3F:0000",
+            "flipkart:BKPEGXYWWJPETZZA:0000",
+            "flipkart:RKSEGKZVBEGUFNYT:0000",
+            "flipkart:RKSEAF7WYHJBVRHD:0000",
+            "flipkart:BKPEBAUXZVMGHBUG:0000",
+            "flipkart:BKPEGXYVHZBG2PUY:0000",
+            "flipkart:BKPEYQHB6J2PN9R4:0000",
+            "flipkart:SPBE2GVZMANCQNZW:0000",
+            "flipkart:BKPEGUJHJFYS4FCU:0000"
+          ]
+        },
+        {
+          "query_id": "q04",
+          "query": "I need assorted nail varnishes that dry quickly instead of keeping my hands idle for ages.",
+          "relevant_chunk_id": "flipkart:NLPEGUMNPUQXBWQY:0000",
+          "rationale": "Multicolour nail-polish combo listed as fast drying.",
+          "relevant_rank": 6,
+          "hit_at_5": false,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:PDKE9C4FSP77MRRF:0000",
+            "flipkart:PDKE9C4F8TDFKHMK:0000",
+            "flipkart:PDKE9C4FPDFDQSUW:0000",
+            "flipkart:SHOEJBFPSSWMUWQG:0001",
+            "flipkart:NLPEGUMZWFSEZSHZ:0000",
+            "flipkart:NLPEGUMNPUQXBWQY:0000",
+            "flipkart:NLPEGUMN6H7YZU9Y:0000",
+            "flipkart:SHOEDZZYZYGXGQZZ:0000",
+            "flipkart:SHOEDGFRHZD6HDBD:0000",
+            "flipkart:PTSDZUERRKENB2FV:0001"
+          ]
+        },
+        {
+          "query_id": "q05",
+          "query": "How can I fit more people into an indoor group photo with a 52 mm DSLR lens attachment?",
+          "relevant_chunk_id": "flipkart:LEAE8UKZFQRUTMAG:0000",
+          "rationale": "52 mm wide-angle attachment described for wider interiors and group photos.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:LEAE8UKZFQRUTMAG:0000",
+            "flipkart:LEAE8UKZFQRUTMAG:0001",
+            "flipkart:PHFEGTJJ5HD9FYGF:0000",
+            "flipkart:PHFEGBZFGSGMFAEV:0000",
+            "flipkart:VANEGPA7ZKGT2UUH:0000",
+            "flipkart:SGLEJXKXJHNJJTWH:0000",
+            "flipkart:SPBDGGG8MYABNX6U:0000",
+            "flipkart:POSEH49H6VAUSEUZ:0000",
+            "flipkart:VANEGPA7YHEVNMBF:0000",
+            "flipkart:BKPEGXYVX4CG7UWX:0000"
+          ]
+        },
+        {
+          "query_id": "q06",
+          "query": "Show me a casual men's crew neck for hot weather with a distressed skull graphic.",
+          "relevant_chunk_id": "flipkart:TSHDVZHNUVFGNGXD:0000",
+          "rationale": "Summer crew-neck tee with a distressed skull-and-crossbones print.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:TSHDVZHNUVFGNGXD:0000",
+            "flipkart:SHMECRNMPZGQZBWZ:0000",
+            "flipkart:SHMECRS4DDGBWMDZ:0000",
+            "flipkart:SHMECRRNMKDPFVNF:0000",
+            "flipkart:BDAEJFMFP3K6TCVE:0000",
+            "flipkart:SHMECQWKZVRQJVY7:0000",
+            "flipkart:SHMECRRMZRZKQEHM:0000",
+            "flipkart:SHMECRHENT38D2TD:0000",
+            "flipkart:SHMECRVFSV5NVUC2:0000",
+            "flipkart:SHMECRM3YRFDHSZS:0000"
+          ]
+        },
+        {
+          "query_id": "q07",
+          "query": "I need a little bendable lamp for my laptop that draws power from USB and needs no batteries.",
+          "relevant_chunk_id": "flipkart:USGEDSGQ9W2FYVYT:0000",
+          "rationale": "Flexible USB LED light described as battery-free and compatible with laptops.",
+          "relevant_rank": 5,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:USGEE5RFHDHCRFSU:0000",
+            "flipkart:USGEDX249AJ5XFKT:0001",
+            "flipkart:USGEE27EHJBEYVVA:0000",
+            "flipkart:USGEE3GG2SYFUCF6:0000",
+            "flipkart:USGEDSGQ9W2FYVYT:0000",
+            "flipkart:USGEE3GGGGYWM8ZZ:0000",
+            "flipkart:USGEBZZ3SVFAFF5E:0000",
+            "flipkart:USGEDX249AJ5XFKT:0000",
+            "flipkart:USGECNEZPYBCAWGU:0000",
+            "flipkart:USGEC8ARDDMVUS7V:0000"
+          ]
+        },
+        {
+          "query_id": "q08",
+          "query": "Do you have brown plastic wayfarer prescription frames for single-vision lenses that come with a protective case?",
+          "relevant_chunk_id": "flipkart:FRAEGWYAJZKS5RNK:0000",
+          "rationale": "Brown plastic wayfarer frame supports single-vision lenses and includes a hard case.",
+          "relevant_rank": 5,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:FRAEGY86AYNQCGUN:0000",
+            "flipkart:SGLEJJ6QZDYMJ7EY:0000",
+            "flipkart:SGLEJ8GVTZDGFGUJ:0000",
+            "flipkart:SGLEJJCW6JYDJZKH:0000",
+            "flipkart:FRAEGWYAJZKS5RNK:0000",
+            "flipkart:GOGEJ88FJUGSVM4K:0000",
+            "flipkart:SGLEJXKXJHNJJTWH:0000",
+            "flipkart:GOGEJ88FJUGSVM4K:0001",
+            "flipkart:GOGEHZ5P6TWYBFXB:0000",
+            "flipkart:SGLEJG6VTTSYHMBD:0000"
+          ]
+        },
+        {
+          "query_id": "q09",
+          "query": "I'm after men's casual slip-ons with a square toe and a rubber-like TPR sole.",
+          "relevant_chunk_id": "flipkart:SHOEDGFRHZD6HDBD:0000",
+          "rationale": "Men's casual slip-on loafers with square toe and TPR sole.",
+          "relevant_rank": null,
+          "hit_at_5": false,
+          "hit_at_10": false,
+          "retrieved_chunk_ids": [
+            "flipkart:SHOE68NHF93EP4VH:0000",
+            "flipkart:SNDEJTZGDSZFAU5F:0000",
+            "flipkart:SHOEHX7JCNXWHWHZ:0000",
+            "flipkart:SHOEGH57PWW9SBZU:0000",
+            "flipkart:SNDDVN24AHEAYBYM:0000",
+            "flipkart:SNDEGQ7NBVGASKHA:0000",
+            "flipkart:SFFEHBHYHYFGY63U:0000",
+            "flipkart:SHOEGHEEEZETGJNZ:0000",
+            "flipkart:SHOEJKQNFKGHKDWS:0000",
+            "flipkart:SHOEJQSJS2HJN5QX:0000"
+          ]
+        },
+        {
+          "query_id": "q10",
+          "query": "Find seating for one person for my living room, upholstered in imitation leather.",
+          "relevant_chunk_id": "flipkart:SOFE8HPYHNT7KUXG:0000",
+          "rationale": "One-seat leatherette sofa listed for a living room.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:SOFE8HPYHNT7KUXG:0000",
+            "flipkart:SOFE8HPYHFDGPFHV:0000",
+            "flipkart:SOFECYFA8R8T5HNG:0000",
+            "flipkart:SOFE8HPYGZCKGXFZ:0000",
+            "flipkart:SOFE8HPYPESPQRPD:0000",
+            "flipkart:SOFEB7MHGWTHZFVJ:0000",
+            "flipkart:SOFECYFAH37ZKUKW:0000",
+            "flipkart:SOFEE7ACTFUYMFGG:0000",
+            "flipkart:SOFEE8CG7UJ62T8F:0000",
+            "flipkart:SOFE8BZMZWJYZUWW:0000"
+          ]
+        },
+        {
+          "query_id": "q11",
+          "query": "I'd like wired in-ear headphones with punchy bass for a Samsung Grand Prime.",
+          "relevant_chunk_id": "flipkart:ACCEGG9VJJHGYPN4:0000",
+          "rationale": "Wired earbud headset listing explicitly mentions Grand Prime and deep bass.",
+          "relevant_rank": 2,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:ACCEGGAYF5HTP4RG:0000",
+            "flipkart:ACCEGG9VJJHGYPN4:0000",
+            "flipkart:ACCEJEEYFFEEGHR7:0000",
+            "flipkart:ACCEGGAYKTBCGT2R:0000",
+            "flipkart:ACCEGG9Z4QCZJZFJ:0000",
+            "flipkart:ACCEGGBTHFC95B56:0000",
+            "flipkart:ACCEGGAYDMUYE7SK:0000",
+            "flipkart:ACCEGGBSWNJB4QEF:0000",
+            "flipkart:ACCEGG9V98NCXGPE:0000",
+            "flipkart:ACCEGGBTG3HMNHNA:0000"
+          ]
+        },
+        {
+          "query_id": "q12",
+          "query": "Find a men's wet-and-dry grooming kit that includes tools for nose hair and beard detailing.",
+          "relevant_chunk_id": "flipkart:SHVDKAYXPNNHWZAD:0000",
+          "rationale": "Wet/dry men's trimmer with nose/detail trimmer and beard comb.",
+          "relevant_rank": null,
+          "hit_at_5": false,
+          "hit_at_10": false,
+          "retrieved_chunk_ids": [
+            "flipkart:SHVE9VHFFYAY8HBT:0000",
+            "flipkart:SHVEFNYPDZDWQCZW:0000",
+            "flipkart:SHVEFAS3RT9N63BU:0000",
+            "flipkart:PDKE9C4FPDFDQSUW:0000",
+            "flipkart:SHMECRNMPZGQZBWZ:0000",
+            "flipkart:SHVEGZUHGVYZBRW8:0000",
+            "flipkart:PDKE9C4FSP77MRRF:0000",
+            "flipkart:SHMECRS4DDGBWMDZ:0000",
+            "flipkart:SHMECRVFSV5NVUC2:0000",
+            "flipkart:PDKE9C4F8TDFKHMK:0000"
+          ]
+        },
+        {
+          "query_id": "q13",
+          "query": "I need a small single-door fridge around 190 litres with the freezer at the top.",
+          "relevant_chunk_id": "flipkart:RFREGWK39RY6V9ZQ:0000",
+          "rationale": "190 L direct-cool single-door refrigerator with top freezer.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:RFREGWK39RY6V9ZQ:0000",
+            "flipkart:RFREHGN3X3FHM4YY:0002",
+            "flipkart:RFREHGN3X3FHM4YY:0000",
+            "flipkart:RFREHGN3X3FHM4YY:0001",
+            "flipkart:RFREGWK39RY6V9ZQ:0001",
+            "flipkart:STIEEHYKHDNH7GFF:0001",
+            "flipkart:RFREGWK39RY6V9ZQ:0002",
+            "flipkart:SRBEJUQFNFJNDNCH:0000",
+            "flipkart:USGEE2FECFENWUNS:0001",
+            "flipkart:MRCEGVVBSGYFZ4FN:0003"
+          ]
+        },
+        {
+          "query_id": "q14",
+          "query": "Find a roughly 28-centimetre wall clock with hands and a quartz mechanism.",
+          "relevant_chunk_id": "flipkart:WCKE56UCFX5EG9ZK:0000",
+          "rationale": "28 cm analogue quartz wall clock.",
+          "relevant_rank": 4,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:WCKEDVH6ZYWJ2QCH:0001",
+            "flipkart:WCKEDVH6ZYWJ2QCH:0000",
+            "flipkart:WCKEGGGDUYZHCHJY:0000",
+            "flipkart:WCKE56UCFX5EG9ZK:0000",
+            "flipkart:WATEA6UGFGKZKDJC:0000",
+            "flipkart:WATECKRBTUPHUXPC:0000",
+            "flipkart:WATE9DX9E4YSRJSY:0000",
+            "flipkart:SHIEJNH8TTK9QJPJ:0000",
+            "flipkart:PLLEHQTTGJSKEGXQ:0000",
+            "flipkart:WATEHYHNCANKP5VZ:0000"
+          ]
+        },
+        {
+          "query_id": "q15",
+          "query": "I need three 15-foot male-to-female HDMI extension leads with support for audio return channel.",
+          "relevant_chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0000",
+          "rationale": "Three 15-foot male-to-female HDMI cables support Audio Return Channel.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:ACCEJHFJGSY6WSV7:0000",
+            "flipkart:ACCEHKGNZCXWRVFM:0000",
+            "flipkart:ACCEJHFJGSY6WSV7:0001",
+            "flipkart:ACCEHKGNZCXWRVFM:0002",
+            "flipkart:ACCEHKGNZCXWRVFM:0001",
+            "flipkart:ACCEJHFJGSY6WSV7:0002",
+            "flipkart:PPJEAJTT86WKA5G9:0001",
+            "flipkart:ACCEJHEKWCGVMTHH:0001",
+            "flipkart:HTHEF7NSJAHRVHXZ:0001",
+            "flipkart:ACCEGMPSDVAVNFPM:0000"
+          ]
+        },
+        {
+          "query_id": "q16",
+          "query": "Looking for five soft square sofa pillows, roughly 40 cm across, with decorative buttons.",
+          "relevant_chunk_id": "flipkart:PLWEJS85EQAHQDSG:0000",
+          "rationale": "Five 40 cm cushions described as soft, with fancy buttons.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:PLWEJS85EQAHQDSG:0000",
+            "flipkart:SOFECYFAGGVMMWS7:0000",
+            "flipkart:CPCEJAHFPGUPNHJ2:0000",
+            "flipkart:CPCEGH8NHZHZDFXR:0000",
+            "flipkart:CPCEDGGNCV7AV7SX:0000",
+            "flipkart:SLIEEXZYYFHXTCZA:0000",
+            "flipkart:CPCEJ8GNEUGJERZG:0000",
+            "flipkart:CPCEDG4HQZHVAUKG:0000",
+            "flipkart:CPCEDAKFZZ4VHWGW:0000",
+            "flipkart:SOFE8HPYHNT7KUXG:0000"
+          ]
+        },
+        {
+          "query_id": "q17",
+          "query": "Can I buy a powered mechanical filter for an aquarium around 850 litres that works with both marine and fresh water?",
+          "relevant_chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+          "rationale": "Powered mechanical aquarium filter rated for 850 L and both water types.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:AQFEF4Q84KDGNGAF:0000",
+            "flipkart:PBLEGVW8CGQF2TMF:0000",
+            "flipkart:WFCEGE8AWTDDUAMC:0000",
+            "flipkart:GLSEGP36GJQSARZS:0000",
+            "flipkart:USGEE2FECFENWUNS:0001",
+            "flipkart:WBTEJEACBQ2BVUZJ:0000",
+            "flipkart:PCSE4SFFJSWJZVH4:0000",
+            "flipkart:WABEJFWDGJDEGED4:0000",
+            "flipkart:BOTEEMN6NM57HSBU:0000",
+            "flipkart:FSEEHXHFG6KCYVVU:0000"
+          ]
+        },
+        {
+          "query_id": "q18",
+          "query": "I want a 75 cm stability ball for core workouts with a pump and exercise instructions on the ball.",
+          "relevant_chunk_id": "flipkart:BALEEZ2A4SWPXJU4:0000",
+          "rationale": "75 cm gym ball with pump and exercises printed on its surface.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:BALEEZ2A4SWPXJU4:0000",
+            "flipkart:BALEEZ2BZZ3ZT99G:0000",
+            "flipkart:BALEJA4CVTGREHEU:0000",
+            "flipkart:BALEJA4CYQQTMYFZ:0000",
+            "flipkart:IFPE7828KFDGJKTZ:0000",
+            "flipkart:RAQEHGQZHNXYVKZW:0000",
+            "flipkart:IFPE7828KFDGJKTZ:0001",
+            "flipkart:BAAEGHPNYQ5JMZNZ:0000",
+            "flipkart:KITEGFBDSYZSVBKB:0000",
+            "flipkart:MASEHU6HAUFFJKHQ:0000"
+          ]
+        },
+        {
+          "query_id": "q19",
+          "query": "What ventilated construction hard hat has an adjustable chin strap and a ratchet fit?",
+          "relevant_chunk_id": "flipkart:SHMECQYPHGTFSGTG:0000",
+          "rationale": "Construction helmet lists ventilation ports, a ratchet harness and an adjustable chin strap.",
+          "relevant_rank": null,
+          "hit_at_5": false,
+          "hit_at_10": false,
+          "retrieved_chunk_ids": [
+            "flipkart:SHMECRS4DDGBWMDZ:0000",
+            "flipkart:SHMECRNMPZGQZBWZ:0000",
+            "flipkart:SHMECRVFSV5NVUC2:0000",
+            "flipkart:SHMECRRNMKDPFVNF:0000",
+            "flipkart:SHMECRRMZRZKQEHM:0000",
+            "flipkart:SHMECQWKZVRQJVY7:0000",
+            "flipkart:SHMECRM3YRFDHSZS:0000",
+            "flipkart:SHMECRM34HFHRFCN:0000",
+            "flipkart:SHMECRHENT38D2TD:0000",
+            "flipkart:SHMECRM3FAEEZ9PB:0000"
+          ]
+        },
+        {
+          "query_id": "q20",
+          "query": "Find an introductory Italian grammar workbook with practice exercises for someone learning the language.",
+          "relevant_chunk_id": "flipkart:DGBDNB4PQ8Z7HWMD:0000",
+          "rationale": "Beginner-oriented Italian grammar and workbook pairs grammar points with exercises.",
+          "relevant_rank": 1,
+          "hit_at_5": true,
+          "hit_at_10": true,
+          "retrieved_chunk_ids": [
+            "flipkart:DGBDNB4PQ8Z7HWMD:0000",
+            "flipkart:DGBDFGE4UJQDEZSJ:0001",
+            "flipkart:DGBDFGE4UJQDEZSJ:0000",
+            "flipkart:LCHEG62YD3RKHXVX:0000",
+            "flipkart:BKPE79UX3AHF8JQR:0000",
+            "flipkart:SHOEJBFPSSWMUWQG:0001",
+            "flipkart:SKIEJH4T9YCH2BCX:0000",
+            "flipkart:WATECHFU4QGFQEJG:0001",
+            "flipkart:SPBE3RJXPR9DZTPT:0001",
+            "flipkart:CSOEGGERRAMYB2WV:0000"
+          ]
+        }
+      ]
+    }
+  ],
+  "selected_config": "ef10",
+  "selection_rule": "Maximize Recall@5, then Recall@10, then lower ef_search"
+}
