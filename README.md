@@ -23,15 +23,14 @@ The project uses Retrieval-Augmented Generation (RAG) to combine semantic search
 
 ## Dataset
 
-- **Source:** Amazon Berkeley Objects (ABO)
-- **Dataset size:** 1,000 product records (planned subset)
-- **Language:** English
-- **Categories:** Various product categories
-- **License:** CC BY 4.0
+[Flipkart Products v1](https://www.kaggle.com/datasets/PromptCloudHQ/flipkart-products)
+is the main corpus for Labs 2–5. It contains 1,000 selected English-language product
+documents across 28 top-level categories. Source listings were crawled in 2015–2016.
+The data is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-Dataset: https://registry.opendata.aws/amazon-berkeley-objects/
-
-Product price availability will be verified during data preparation.
+Catalog budgets are expressed in INR. Filter by the structured `discounted_price`
+field and retain `retail_price` for display. See the [data card](reports/lab-2/data-card.md)
+for selection, attribution, preprocessing, and the limits of the historical prices.
 
 ## Project Structure
 
@@ -86,11 +85,24 @@ Download the language model:
 ollama pull qwen2.5:3b
 ```
 
+## Prepare the Lab 2 corpus
+
+Run from the repository root with Python 3.11 or newer after installing the dependencies:
+
+```bash
+python src/prepare_flipkart.py
+```
+
+The script downloads the original Kaggle ZIP and checks the CSV's SHA-256. Supply
+`--source PATH` to use the same archive or CSV from disk and `--output-root PATH`
+to generate an independent copy. Outputs are written under `data/lab-2/` and
+`reports/lab-2/`.
+
 ## Development Status
 
-The project is currently in the design phase (Lab 1).
-
-The data processing pipeline, vector indexing, retrieval algorithms, and generation functionality will be implemented in subsequent laboratory works.
+Lab 1 covers RAG system design, and Lab 2 adds the reproducible Flipkart data
+pipeline. Vector indexing, hybrid retrieval, generation, and evaluation follow
+in Labs 3–5.
 
 ## Laboratory Works
 
