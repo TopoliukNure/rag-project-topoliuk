@@ -1,0 +1,225 @@
+{
+  "fitness": {
+    "decision": "conditionally_suitable_for_teaching",
+    "reason": "The system demonstrates retrieval, grounded output and budget enforcement on a historical catalog. Top-five misses, incomplete synthesis and semantic errors limit reliable product recommendations.",
+    "catalog": {
+      "documents": 1000,
+      "chunks": 1208,
+      "price_currency": "INR",
+      "price_period": "2015–2016",
+      "live_stock_checked": false
+    }
+  },
+  "failures": [
+    {
+      "mode": "Top-five cutoff and fusion ranking",
+      "observations": [
+        {
+          "query_id": "q03",
+          "gold_ranks": {
+            "dense": {
+              "flipkart:BKPEGXYVHZBG2PUY:0000": 7
+            },
+            "bm25": {
+              "flipkart:BKPEGXYVHZBG2PUY:0000": 5
+            },
+            "rrf": {
+              "flipkart:BKPEGXYVHZBG2PUY:0000": 6
+            }
+          }
+        },
+        {
+          "query_id": "q04",
+          "gold_ranks": {
+            "dense": {
+              "flipkart:NLPEGUMNPUQXBWQY:0000": 6
+            },
+            "bm25": {
+              "flipkart:NLPEGUMNPUQXBWQY:0000": 6
+            },
+            "rrf": {
+              "flipkart:NLPEGUMNPUQXBWQY:0000": 6
+            }
+          }
+        },
+        {
+          "query_id": "q07",
+          "gold_ranks": {
+            "dense": {
+              "flipkart:USGEDSGQ9W2FYVYT:0000": 5
+            },
+            "bm25": {
+              "flipkart:USGEDSGQ9W2FYVYT:0000": 21
+            },
+            "rrf": {
+              "flipkart:USGEDSGQ9W2FYVYT:0000": 10
+            }
+          }
+        },
+        {
+          "query_id": "q23",
+          "gold_ranks": {
+            "dense": {
+              "flipkart:FRAEGWYAJZKS5RNK:0000": 1,
+              "flipkart:SHOEDGFRHZD6HDBD:0000": 19
+            },
+            "bm25": {
+              "flipkart:FRAEGWYAJZKS5RNK:0000": 1,
+              "flipkart:SHOEDGFRHZD6HDBD:0000": 4
+            },
+            "rrf": {
+              "flipkart:FRAEGWYAJZKS5RNK:0000": 1,
+              "flipkart:SHOEDGFRHZD6HDBD:0000": 6
+            }
+          }
+        }
+      ],
+      "change": "Retrieve a larger pool, group candidates by product, and rerank on explicit constraints before forming the context. Evaluate the change against the frozen benchmark."
+    },
+    {
+      "mode": "Incomplete multi-source synthesis",
+      "required_source_groups_covered": 4,
+      "all_anchors_in_returned_quotes": 0,
+      "denominator": 6,
+      "observations": [
+        {
+          "query_id": "q24",
+          "all_literal_anchors_in_prompt_shortlists": true,
+          "detail": "The shortlists covered every required fact across chunks. Qwen selected one chunk, then the reviewer rejected it."
+        },
+        {
+          "query_id": "q25",
+          "detail": "The answer cited the included trimmer. Its only quote lacked both time values, which were retrieved in a second chunk."
+        }
+      ],
+      "change": "Group evidence by document and required property. Allow multiple verified citations per product and partial responses marked as incomplete."
+    },
+    {
+      "mode": "Semantic and citation-binding errors during generation",
+      "observations": [
+        {
+          "query_id": "q03",
+          "detail": "Ergo was accepted even though the quote states two compartments; the query requires three."
+        },
+        {
+          "query_id": "q10",
+          "detail": "A three-seat sofa was accepted for a one-seat request despite the explicit count in its quote."
+        },
+        {
+          "query_id": "q05",
+          "detail": "The 52 mm wide-angle query was refused with both annotated chunks in the first two ranks."
+        },
+        {
+          "query_id": "q31",
+          "previous_lab4_status": "ok",
+          "lab5_status": "insufficient_context",
+          "identical_context_ids": true,
+          "detail": "The same query and context produced different decisions in the two recorded runs; the cause was not isolated."
+        },
+        {
+          "query_id": "m03",
+          "detail": "The paraphrase retained the same retrieved chunks. Both generated selections used evidence IDs belonging to other chunks, so verification prevented a final recommendation."
+        }
+      ],
+      "change": "Verify explicit model IDs, dimensions and counts deterministically when catalog metadata supports them. Tie each requirement to a quote, and replace separate model-written chunk and evidence fields with a single allowed evidence ID mapped to the chunk in code."
+    }
+  ],
+  "positive_refusal_query_ids": [
+    "q04",
+    "q05",
+    "q08",
+    "q09",
+    "q11",
+    "q17",
+    "q20",
+    "q21",
+    "q22",
+    "q23",
+    "q24",
+    "q31",
+    "q32"
+  ],
+  "encoder_limit": {
+    "max_tokens": 256,
+    "chunks_over_limit": 1181,
+    "total_chunks": 1208,
+    "late_fact_anchors": [
+      {
+        "query_id": "q21",
+        "verbatim": "Designed For Motorola Moto E"
+      },
+      {
+        "query_id": "q24",
+        "verbatim": "Child Lock: Yes"
+      },
+      {
+        "query_id": "q24",
+        "verbatim": "Ice Cube Tray Type: Twist Ice Maker"
+      },
+      {
+        "query_id": "q26",
+        "verbatim": "Weight 2177 g"
+      },
+      {
+        "query_id": "q33",
+        "verbatim": "Designed For Motorola Moto E"
+      },
+      {
+        "query_id": "q33",
+        "verbatim": "Type: Tempered Glass"
+      },
+      {
+        "query_id": "q36",
+        "verbatim": "Capacity: 26 L"
+      }
+    ],
+    "interpretation": "The dense encoder sees only the prefix. Full text remains available to BM25 and excerpt extraction. The audit does not isolate truncation as the cause of individual ranking misses."
+  },
+  "annotation_notes": [
+    {
+      "query_id": "q01",
+      "detail": "The response contained the gold model and another catalog variant with matching side-window placement and easy removal. Exact product-set mismatch alone does not imply semantic error."
+    },
+    {
+      "query_id": "q19",
+      "detail": "The alternative record has six vents and a ratchet harness. It does not establish that its chin strap is adjustable; it is listed as a fire-fighting helmet."
+    },
+    {
+      "query_id": "q26",
+      "detail": "Chunk 0002 has the punctuation variant 'Weight: 2177 g'. Gold labels stayed frozen, so the literal source-group diagnostic counts only the annotated form 'Weight 2177 g'. The returned quote includes the weight but omits the requested plating."
+    }
+  ],
+  "behavior": {
+    "FAIL": 4,
+    "PASS": 2
+  },
+  "metamorphic": {
+    "FAIL": 3
+  },
+  "manual_prompt_injection": {
+    "statuses": {
+      "PASS": 5
+    },
+    "successful_attacks": 0,
+    "hardening": {
+      "proposal": "Keep the structured response schema, context-scoped allowlist and pre/post price validation. Treat the user query as data and map a single allowed evidence identifier to its chunk in deterministic code so the model cannot combine mismatched IDs.",
+      "baseline_patch_required": false,
+      "reason": "No probe achieved its requested override. The proposed evidence-ID change addresses the reproduced non-adversarial pairing errors and was left outside this baseline."
+    }
+  },
+  "automatic_tests": {
+    "run": 40,
+    "passed": 40,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests"
+  },
+  "runtime": {
+    "unique_live_queries": 47,
+    "model_call_counts": {
+      "selection": 50,
+      "relevance_review": 24
+    },
+    "invalid_model_attempts": 5,
+    "elapsed_seconds": 931.245
+  }
+}

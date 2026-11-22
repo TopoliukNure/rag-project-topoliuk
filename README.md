@@ -178,6 +178,30 @@ Use an explicit maximum such as `up to INR 200` (inclusive) or
 `under INR 200` (exclusive). Prices come from the historical INR catalog.
 Use `--ollama-port` if the local API listens on another port.
 
+## Lab 5: RAG Evaluation
+
+Use the existing Lab 3 Chroma index and start Ollama with `qwen2.5:3b`.
+From the project root, run the fast tests and then the live evaluation:
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s tests
+.\.venv\Scripts\python.exe -m src.evaluate_lab5 --output data/lab-5/repeat
+```
+
+Pass `--ollama-port` or `--index-root` to override local defaults. Use
+`$env:HF_HUB_OFFLINE='1'` when the pinned encoder is already cached and
+the network is unavailable. Live evaluation uses the frozen 36-query
+gold set and saves individual Ollama calls and evaluation results. Exact
+queries shared by multiple suites reuse one observation. Use a fresh
+output directory to preserve the checked-in baseline. Review the five
+prompt-injection outputs manually after a new run.
+
+Recall@5 is macro-averaged across positive queries, using all labeled
+chunks. Citation validity is measured only on responses with
+recommendations. Literal quote-anchor coverage and coverage of the
+required source groups are separate diagnostics. Empty citation sets on
+both sides of a paraphrase have undefined Jaccard similarity.
+
 ## Author
 
 GitHub: [TopoliukNure](https://github.com/TopoliukNure)

@@ -1,0 +1,788 @@
+[
+  {
+    "id": "b01",
+    "category": "Minimum Functionality",
+    "criterion": "Return only the Galaxy A3 A300 protector with a 9H quote, at 440 INR.",
+    "original": {
+      "query": "A tempered glass screen protector for Samsung Galaxy A3 A300 with 9H hardness up to INR 440",
+      "max_price_inr": 440,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:ACCE6RHSYPAB8TBH:0000",
+          "document_id": "flipkart:ACCE6RHSYPAB8TBH",
+          "rrf_score": 0.03278688524590164,
+          "discounted_price": 440
+        },
+        {
+          "chunk_id": "flipkart:ACCEGQXFX2FRTRC7:0000",
+          "document_id": "flipkart:ACCEGQXFX2FRTRC7",
+          "rrf_score": 0.03200204813108039,
+          "discounted_price": 169
+        },
+        {
+          "chunk_id": "flipkart:ACCEGR4ZHHMWSMFM:0000",
+          "document_id": "flipkart:ACCEGR4ZHHMWSMFM",
+          "rrf_score": 0.03200204813108039,
+          "discounted_price": 169
+        },
+        {
+          "chunk_id": "flipkart:ACCEGRYUMK6MDDX2:0000",
+          "document_id": "flipkart:ACCEGRYUMK6MDDX2",
+          "rrf_score": 0.03125,
+          "discounted_price": 279
+        },
+        {
+          "chunk_id": "flipkart:CUTDTXFGNGUGSKXH:0000",
+          "document_id": "flipkart:CUTDTXFGNGUGSKXH",
+          "rrf_score": 0.027912386121341344,
+          "discounted_price": 149
+        }
+      ],
+      "result": {
+        "query": "A tempered glass screen protector for Samsung Galaxy A3 A300 with 9H hardness up to INR 440",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": 440,
+        "context_chunk_ids": [
+          "flipkart:ACCE6RHSYPAB8TBH:0000",
+          "flipkart:ACCEGQXFX2FRTRC7:0000",
+          "flipkart:ACCEGR4ZHHMWSMFM:0000",
+          "flipkart:ACCEGRYUMK6MDDX2:0000",
+          "flipkart:CUTDTXFGNGUGSKXH:0000"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 0,
+        "rejected_chunk_ids": [],
+        "recommendations": [],
+        "status": "insufficient_context",
+        "message": "The retrieved catalog evidence does not support a match."
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"insufficient_context\", \"recommendations\": []}"
+        }
+      ],
+      "elapsed_seconds": 13.783,
+      "citations_valid": null
+    },
+    "variant": null,
+    "criterion_checks": [
+      false,
+      false,
+      false
+    ],
+    "status": "FAIL",
+    "explanation": "insufficient_context, documents: none",
+    "manual_review": "The 440 INR Nillkin listing was retrieved and the model declined."
+  },
+  {
+    "id": "b02",
+    "category": "Minimum Functionality",
+    "criterion": "Return insufficient_context for passport renewal.",
+    "original": {
+      "query": "Can you renew my Canadian passport?",
+      "max_price_inr": null,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:LTNEHQSPHYAHDKCG:0000",
+          "document_id": "flipkart:LTNEHQSPHYAHDKCG",
+          "rrf_score": 0.031009615384615385,
+          "discounted_price": 825
+        },
+        {
+          "chunk_id": "flipkart:SHVDKAYXPNNHWZAD:0000",
+          "document_id": "flipkart:SHVDKAYXPNNHWZAD",
+          "rrf_score": 0.029857397504456328,
+          "discounted_price": 3232
+        },
+        {
+          "chunk_id": "flipkart:RFREHGN3X3FHM4YY:0002",
+          "document_id": "flipkart:RFREHGN3X3FHM4YY",
+          "rrf_score": 0.01639344262295082,
+          "discounted_price": 19460
+        },
+        {
+          "chunk_id": "flipkart:TDHEGVZKK3SXYZSC:0000",
+          "document_id": "flipkart:TDHEGVZKK3SXYZSC",
+          "rrf_score": 0.01639344262295082,
+          "discounted_price": 795
+        },
+        {
+          "chunk_id": "flipkart:BMDEGVYEE6HXZJCK:0001",
+          "document_id": "flipkart:BMDEGVYEE6HXZJCK",
+          "rrf_score": 0.016129032258064516,
+          "discounted_price": 36575
+        }
+      ],
+      "result": {
+        "query": "Can you renew my Canadian passport?",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": null,
+        "context_chunk_ids": [
+          "flipkart:LTNEHQSPHYAHDKCG:0000",
+          "flipkart:SHVDKAYXPNNHWZAD:0000",
+          "flipkart:RFREHGN3X3FHM4YY:0002",
+          "flipkart:TDHEGVZKK3SXYZSC:0000",
+          "flipkart:BMDEGVYEE6HXZJCK:0001"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 0,
+        "rejected_chunk_ids": [],
+        "recommendations": [],
+        "status": "insufficient_context",
+        "message": "The retrieved catalog evidence does not support a match."
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"insufficient_context\", \"recommendations\": []}"
+        }
+      ],
+      "elapsed_seconds": 13.076,
+      "citations_valid": null
+    },
+    "variant": null,
+    "criterion_checks": [
+      true
+    ],
+    "status": "PASS",
+    "explanation": "insufficient_context, documents: none",
+    "manual_review": "The passport renewal request ended with insufficient_context."
+  },
+  {
+    "id": "b03",
+    "category": "Invariance",
+    "criterion": "Both responses return only Harissons Split and support 26 L.",
+    "original": {
+      "query": "Find a Harissons Split backpack with a 26 L capacity.",
+      "max_price_inr": null,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+          "document_id": "flipkart:BKPEGXYVHZBG2PUY",
+          "rrf_score": 0.03278688524590164,
+          "discounted_price": 1099
+        },
+        {
+          "chunk_id": "flipkart:BKPEGXYVX4CG7UWX:0000",
+          "document_id": "flipkart:BKPEGXYVX4CG7UWX",
+          "rrf_score": 0.03200204813108039,
+          "discounted_price": 1299
+        },
+        {
+          "chunk_id": "flipkart:BKPEGXYWWJPETZZA:0000",
+          "document_id": "flipkart:BKPEGXYWWJPETZZA",
+          "rrf_score": 0.03200204813108039,
+          "discounted_price": 1849
+        },
+        {
+          "chunk_id": "flipkart:BKPE79UX3AHF8JQR:0000",
+          "document_id": "flipkart:BKPE79UX3AHF8JQR",
+          "rrf_score": 0.030330882352941176,
+          "discounted_price": 499
+        },
+        {
+          "chunk_id": "flipkart:BKPEGXWHXG4GZWET:0000",
+          "document_id": "flipkart:BKPEGXWHXG4GZWET",
+          "rrf_score": 0.03007688828584351,
+          "discounted_price": 529
+        }
+      ],
+      "result": {
+        "query": "Find a Harissons Split backpack with a 26 L capacity.",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": null,
+        "context_chunk_ids": [
+          "flipkart:BKPEGXYVHZBG2PUY:0000",
+          "flipkart:BKPEGXYVX4CG7UWX:0000",
+          "flipkart:BKPEGXYWWJPETZZA:0000",
+          "flipkart:BKPE79UX3AHF8JQR:0000",
+          "flipkart:BKPEGXWHXG4GZWET:0000"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 1,
+        "rejected_chunk_ids": [
+          "flipkart:BKPEGXYVX4CG7UWX:0000"
+        ],
+        "recommendations": [
+          {
+            "chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+            "document_id": "flipkart:BKPEGXYVHZBG2PUY",
+            "title": "Harissons Split 26 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1099,
+            "currency": "INR",
+            "evidence": "Type: Backpack Laptop Sleeve: No Material: Polyester Style Code: HB1020 Capacity: 26 L Ideal For: Men,"
+          }
+        ],
+        "status": "ok"
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"ok\", \"recommendations\": [{\"chunk_id\": \"flipkart:BKPEGXYVHZBG2PUY:0000\", \"evidence_id\": \"1.1\"}, {\"chunk_id\": \"flipkart:BKPEGXYVX4CG7UWX:0000\", \"evidence_id\": \"2.1\"}]}"
+        },
+        {
+          "stage": "relevance_review",
+          "raw_output": "{\"accepted_chunk_ids\": [\"flipkart:BKPEGXYVHZBG2PUY:0000\"]}"
+        }
+      ],
+      "elapsed_seconds": 26.034,
+      "citations_valid": true
+    },
+    "variant": {
+      "query": "I want the 26-litre Split rucksack made by Harissons.",
+      "max_price_inr": null,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+          "document_id": "flipkart:BKPEGXYVHZBG2PUY",
+          "rrf_score": 0.03252247488101534,
+          "discounted_price": 1099
+        },
+        {
+          "chunk_id": "flipkart:RKSE8JZAPUG4AK3F:0000",
+          "document_id": "flipkart:RKSE8JZAPUG4AK3F",
+          "rrf_score": 0.032266458495966696,
+          "discounted_price": 1699
+        },
+        {
+          "chunk_id": "flipkart:RKSEGKZVBEGUFNYT:0000",
+          "document_id": "flipkart:RKSEGKZVBEGUFNYT",
+          "rrf_score": 0.03125,
+          "discounted_price": 1431
+        },
+        {
+          "chunk_id": "flipkart:BKPEGXYWWJPETZZA:0000",
+          "document_id": "flipkart:BKPEGXYWWJPETZZA",
+          "rrf_score": 0.0304147465437788,
+          "discounted_price": 1849
+        },
+        {
+          "chunk_id": "flipkart:BKPEGXYVX4CG7UWX:0000",
+          "document_id": "flipkart:BKPEGXYVX4CG7UWX",
+          "rrf_score": 0.029273504273504274,
+          "discounted_price": 1299
+        }
+      ],
+      "result": {
+        "query": "I want the 26-litre Split rucksack made by Harissons.",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": null,
+        "context_chunk_ids": [
+          "flipkart:BKPEGXYVHZBG2PUY:0000",
+          "flipkart:RKSE8JZAPUG4AK3F:0000",
+          "flipkart:RKSEGKZVBEGUFNYT:0000",
+          "flipkart:BKPEGXYWWJPETZZA:0000",
+          "flipkart:BKPEGXYVX4CG7UWX:0000"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 1,
+        "rejected_chunk_ids": [
+          "flipkart:BKPEGXYVX4CG7UWX:0000"
+        ],
+        "recommendations": [
+          {
+            "chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+            "document_id": "flipkart:BKPEGXYVHZBG2PUY",
+            "title": "Harissons Split 26 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1099,
+            "currency": "INR",
+            "evidence": "by its padded joint shoulder straps. They evenly distribute your backpack’s weight and are easily adjustable."
+          }
+        ],
+        "status": "ok"
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"ok\", \"recommendations\": [{\"chunk_id\": \"flipkart:BKPEGXYVHZBG2PUY:0000\", \"evidence_id\": \"1.5\"}, {\"chunk_id\": \"flipkart:BKPEGXYVX4CG7UWX:0000\", \"evidence_id\": \"5.4\"}]}"
+        },
+        {
+          "stage": "relevance_review",
+          "raw_output": "{\"accepted_chunk_ids\": [\"flipkart:BKPEGXYVHZBG2PUY:0000\"]}"
+        }
+      ],
+      "elapsed_seconds": 23.355,
+      "citations_valid": true
+    },
+    "criterion_checks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "status": "FAIL",
+    "explanation": "ok, documents: flipkart:BKPEGXYVHZBG2PUY / ok, documents: flipkart:BKPEGXYVHZBG2PUY",
+    "manual_review": "Both answers gave the exact same backpack. The variant quote discussed shoulder straps and omitted 26 L."
+  },
+  {
+    "id": "b04",
+    "category": "Directional Expectation",
+    "criterion": "Return RS-8500 at 698 INR, then abstain with a 697 INR cap.",
+    "original": {
+      "query": "An aquarium filter for both marine and fresh water up to INR 698",
+      "max_price_inr": 698,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+          "document_id": "flipkart:AQFEF4Q84KDGNGAF",
+          "rrf_score": 0.03278688524590164,
+          "discounted_price": 698
+        },
+        {
+          "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+          "document_id": "flipkart:PBLEGVW8CGQF2TMF",
+          "rrf_score": 0.03225806451612903,
+          "discounted_price": 649
+        },
+        {
+          "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+          "document_id": "flipkart:WFCEGE8AWTDDUAMC",
+          "rrf_score": 0.031746031746031744,
+          "discounted_price": 249
+        },
+        {
+          "chunk_id": "flipkart:BOTEEMN6NM57HSBU:0000",
+          "document_id": "flipkart:BOTEEMN6NM57HSBU",
+          "rrf_score": 0.03125,
+          "discounted_price": 549
+        },
+        {
+          "chunk_id": "flipkart:SGLEJG6VTTSYHMBD:0000",
+          "document_id": "flipkart:SGLEJG6VTTSYHMBD",
+          "rrf_score": 0.026500526500526502,
+          "discounted_price": 269
+        }
+      ],
+      "result": {
+        "query": "An aquarium filter for both marine and fresh water up to INR 698",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": 698,
+        "context_chunk_ids": [
+          "flipkart:AQFEF4Q84KDGNGAF:0000",
+          "flipkart:PBLEGVW8CGQF2TMF:0000",
+          "flipkart:WFCEGE8AWTDDUAMC:0000",
+          "flipkart:BOTEEMN6NM57HSBU:0000",
+          "flipkart:SGLEJG6VTTSYHMBD:0000"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 0,
+        "rejected_chunk_ids": [],
+        "recommendations": [],
+        "status": "insufficient_context",
+        "message": "The retrieved catalog evidence does not support a match."
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"insufficient_context\", \"recommendations\": []}"
+        }
+      ],
+      "elapsed_seconds": 13.954,
+      "citations_valid": null
+    },
+    "variant": {
+      "query": "An aquarium filter for both marine and fresh water under INR 698",
+      "max_price_inr": 697,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+          "document_id": "flipkart:PBLEGVW8CGQF2TMF",
+          "rrf_score": 0.03278688524590164,
+          "discounted_price": 649
+        },
+        {
+          "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+          "document_id": "flipkart:WFCEGE8AWTDDUAMC",
+          "rrf_score": 0.03225806451612903,
+          "discounted_price": 249
+        },
+        {
+          "chunk_id": "flipkart:BOTEEMN6NM57HSBU:0000",
+          "document_id": "flipkart:BOTEEMN6NM57HSBU",
+          "rrf_score": 0.03125763125763126,
+          "discounted_price": 549
+        },
+        {
+          "chunk_id": "flipkart:CSPEGMVJJDYAYQYG:0000",
+          "document_id": "flipkart:CSPEGMVJJDYAYQYG",
+          "rrf_score": 0.015873015873015872,
+          "discounted_price": 380
+        },
+        {
+          "chunk_id": "flipkart:BEOEHHQZYG2VSX6W:0000",
+          "document_id": "flipkart:BEOEHHQZYG2VSX6W",
+          "rrf_score": 0.015625,
+          "discounted_price": 249
+        }
+      ],
+      "result": {
+        "query": "An aquarium filter for both marine and fresh water under INR 698",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": 697,
+        "context_chunk_ids": [
+          "flipkart:PBLEGVW8CGQF2TMF:0000",
+          "flipkart:WFCEGE8AWTDDUAMC:0000",
+          "flipkart:BOTEEMN6NM57HSBU:0000",
+          "flipkart:CSPEGMVJJDYAYQYG:0000",
+          "flipkart:BEOEHHQZYG2VSX6W:0000"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 0,
+        "rejected_chunk_ids": [],
+        "recommendations": [],
+        "status": "insufficient_context",
+        "message": "The retrieved catalog evidence does not support a match."
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"insufficient_context\", \"recommendations\": []}"
+        }
+      ],
+      "elapsed_seconds": 14.532,
+      "citations_valid": null
+    },
+    "criterion_checks": [
+      false,
+      false,
+      true,
+      true,
+      true
+    ],
+    "status": "FAIL",
+    "explanation": "insufficient_context, documents: none / insufficient_context, documents: none",
+    "manual_review": "Both 698 and 697 INR ceilings parsed as specified. The invalid strict match was excluded, but the eligible inclusive match was also refused."
+  },
+  {
+    "id": "b05",
+    "category": "Directional Expectation",
+    "criterion": "Switch from the Galaxy A3 A300 protector to the Moto E XT1021 one.",
+    "original": {
+      "query": "A tempered glass screen protector for Samsung Galaxy A3 A300 with 9H hardness up to INR 440",
+      "max_price_inr": 440,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:ACCE6RHSYPAB8TBH:0000",
+          "document_id": "flipkart:ACCE6RHSYPAB8TBH",
+          "rrf_score": 0.03278688524590164,
+          "discounted_price": 440
+        },
+        {
+          "chunk_id": "flipkart:ACCEGQXFX2FRTRC7:0000",
+          "document_id": "flipkart:ACCEGQXFX2FRTRC7",
+          "rrf_score": 0.03200204813108039,
+          "discounted_price": 169
+        },
+        {
+          "chunk_id": "flipkart:ACCEGR4ZHHMWSMFM:0000",
+          "document_id": "flipkart:ACCEGR4ZHHMWSMFM",
+          "rrf_score": 0.03200204813108039,
+          "discounted_price": 169
+        },
+        {
+          "chunk_id": "flipkart:ACCEGRYUMK6MDDX2:0000",
+          "document_id": "flipkart:ACCEGRYUMK6MDDX2",
+          "rrf_score": 0.03125,
+          "discounted_price": 279
+        },
+        {
+          "chunk_id": "flipkart:CUTDTXFGNGUGSKXH:0000",
+          "document_id": "flipkart:CUTDTXFGNGUGSKXH",
+          "rrf_score": 0.027912386121341344,
+          "discounted_price": 149
+        }
+      ],
+      "result": {
+        "query": "A tempered glass screen protector for Samsung Galaxy A3 A300 with 9H hardness up to INR 440",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": 440,
+        "context_chunk_ids": [
+          "flipkart:ACCE6RHSYPAB8TBH:0000",
+          "flipkart:ACCEGQXFX2FRTRC7:0000",
+          "flipkart:ACCEGR4ZHHMWSMFM:0000",
+          "flipkart:ACCEGRYUMK6MDDX2:0000",
+          "flipkart:CUTDTXFGNGUGSKXH:0000"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 0,
+        "rejected_chunk_ids": [],
+        "recommendations": [],
+        "status": "insufficient_context",
+        "message": "The retrieved catalog evidence does not support a match."
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"insufficient_context\", \"recommendations\": []}"
+        }
+      ],
+      "elapsed_seconds": 13.783,
+      "citations_valid": null
+    },
+    "variant": {
+      "query": "Find a tempered glass screen protector for Motorola Moto E XT1021.",
+      "max_price_inr": null,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:ACCEGR4ZHHMWSMFM:0000",
+          "document_id": "flipkart:ACCEGR4ZHHMWSMFM",
+          "rrf_score": 0.03278688524590164,
+          "discounted_price": 169
+        },
+        {
+          "chunk_id": "flipkart:ACCEGQXFX2FRTRC7:0000",
+          "document_id": "flipkart:ACCEGQXFX2FRTRC7",
+          "rrf_score": 0.03225806451612903,
+          "discounted_price": 169
+        },
+        {
+          "chunk_id": "flipkart:ACCEGRYUMK6MDDX2:0000",
+          "document_id": "flipkart:ACCEGRYUMK6MDDX2",
+          "rrf_score": 0.031746031746031744,
+          "discounted_price": 279
+        },
+        {
+          "chunk_id": "flipkart:ACCE6RHSYPAB8TBH:0000",
+          "document_id": "flipkart:ACCE6RHSYPAB8TBH",
+          "rrf_score": 0.03125,
+          "discounted_price": 440
+        },
+        {
+          "chunk_id": "flipkart:CDBECAF9NK378YZT:0000",
+          "document_id": "flipkart:CDBECAF9NK378YZT",
+          "rrf_score": 0.028814262023217248,
+          "discounted_price": 578
+        }
+      ],
+      "result": {
+        "query": "Find a tempered glass screen protector for Motorola Moto E XT1021.",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": null,
+        "context_chunk_ids": [
+          "flipkart:ACCEGR4ZHHMWSMFM:0000",
+          "flipkart:ACCEGQXFX2FRTRC7:0000",
+          "flipkart:ACCEGRYUMK6MDDX2:0000",
+          "flipkart:ACCE6RHSYPAB8TBH:0000",
+          "flipkart:CDBECAF9NK378YZT:0000"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 1,
+        "rejected_chunk_ids": [],
+        "recommendations": [
+          {
+            "chunk_id": "flipkart:ACCEGR4ZHHMWSMFM:0000",
+            "document_id": "flipkart:ACCEGR4ZHHMWSMFM",
+            "title": "Protector Moto E XT1021 Tempered Glass for Motorola Moto E",
+            "category": "Mobiles & Accessories",
+            "discounted_price": 169,
+            "currency": "INR",
+            "evidence": "Motorola Moto E Perfect to work with touch screen technology Premium Quality Anti-Static and Anti-Friction UV"
+          }
+        ],
+        "status": "ok"
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"ok\", \"recommendations\": [{\"chunk_id\": \"flipkart:ACCEGR4ZHHMWSMFM:0000\", \"evidence_id\": \"1.5\"}, {\"chunk_id\": \"flipkart:ACCEGR4ZHHMWSMFM:0000\", \"evidence_id\": \"1.6\"}]}"
+        },
+        {
+          "stage": "relevance_review",
+          "raw_output": "{\"accepted_chunk_ids\": [\"flipkart:ACCEGR4ZHHMWSMFM:0000\"]}"
+        }
+      ],
+      "elapsed_seconds": 22.048,
+      "citations_valid": true
+    },
+    "criterion_checks": [
+      false,
+      false,
+      true,
+      true
+    ],
+    "status": "FAIL",
+    "explanation": "insufficient_context, documents: none / ok, documents: flipkart:ACCEGR4ZHHMWSMFM",
+    "manual_review": "The Moto E variant returned the expected protector. The baseline Galaxy A3 request was refused."
+  },
+  {
+    "id": "b06",
+    "category": "Directional Expectation",
+    "criterion": "Return the 15-foot male-to-female pack, then abstain for male-to-male.",
+    "original": {
+      "query": "I need three 15-foot male-to-female HDMI extension leads with support for audio return channel.",
+      "max_price_inr": null,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0000",
+          "document_id": "flipkart:ACCEHKGNZCXWRVFM",
+          "rrf_score": 0.03225806451612903,
+          "discounted_price": 999
+        },
+        {
+          "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0000",
+          "document_id": "flipkart:ACCEJHFJGSY6WSV7",
+          "rrf_score": 0.032018442622950824,
+          "discounted_price": 1699
+        },
+        {
+          "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0001",
+          "document_id": "flipkart:ACCEHKGNZCXWRVFM",
+          "rrf_score": 0.03177805800756621,
+          "discounted_price": 999
+        },
+        {
+          "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0001",
+          "document_id": "flipkart:ACCEJHFJGSY6WSV7",
+          "rrf_score": 0.031746031746031744,
+          "discounted_price": 1699
+        },
+        {
+          "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0002",
+          "document_id": "flipkart:ACCEHKGNZCXWRVFM",
+          "rrf_score": 0.031009615384615385,
+          "discounted_price": 999
+        }
+      ],
+      "result": {
+        "query": "I need three 15-foot male-to-female HDMI extension leads with support for audio return channel.",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": null,
+        "context_chunk_ids": [
+          "flipkart:ACCEHKGNZCXWRVFM:0000",
+          "flipkart:ACCEJHFJGSY6WSV7:0000",
+          "flipkart:ACCEHKGNZCXWRVFM:0001",
+          "flipkart:ACCEJHFJGSY6WSV7:0001",
+          "flipkart:ACCEHKGNZCXWRVFM:0002"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 1,
+        "rejected_chunk_ids": [],
+        "recommendations": [
+          {
+            "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0000",
+            "document_id": "flipkart:ACCEJHFJGSY6WSV7",
+            "title": "C&E TV-out Cable High Speed HDMI Cable Male to Female 15 Feet, 3 Pack",
+            "category": "Home Entertainment",
+            "discounted_price": 1699,
+            "currency": "INR",
+            "evidence": "up to 240hz Refresh Rates and 48-Bit Deep Color) Supports all new HDMI advanced features such as 3D, Audio Return Channel, Ethernet, up to 7.1 DolbyÃÂ® TrueHD and"
+          }
+        ],
+        "status": "ok"
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\n  \"status\": \"ok\",\n  \"recommendations\": [\n    {\n      \"chunk_id\": \"flipkart:ACCEJHFJGSY6WSV7:0000\",\n      \"evidence_id\": \"2.2\"\n    },\n    {\n      \"chunk_id\": \"flipkart:ACCEJHFJGSY6WSV7:0001\",\n      \"evidence_id\": \"4.2\"\n    }\n  ]\n}"
+        },
+        {
+          "stage": "relevance_review",
+          "raw_output": "{\"accepted_chunk_ids\": [\"flipkart:ACCEJHFJGSY6WSV7:0000\"]}"
+        }
+      ],
+      "elapsed_seconds": 26.633,
+      "citations_valid": true
+    },
+    "variant": {
+      "query": "I need three 15-foot male-to-male HDMI extension leads with support for audio return channel.",
+      "max_price_inr": null,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0000",
+          "document_id": "flipkart:ACCEHKGNZCXWRVFM",
+          "rrf_score": 0.03225806451612903,
+          "discounted_price": 999
+        },
+        {
+          "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0000",
+          "document_id": "flipkart:ACCEJHFJGSY6WSV7",
+          "rrf_score": 0.032018442622950824,
+          "discounted_price": 1699
+        },
+        {
+          "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0001",
+          "document_id": "flipkart:ACCEHKGNZCXWRVFM",
+          "rrf_score": 0.03177805800756621,
+          "discounted_price": 999
+        },
+        {
+          "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0001",
+          "document_id": "flipkart:ACCEJHFJGSY6WSV7",
+          "rrf_score": 0.031746031746031744,
+          "discounted_price": 1699
+        },
+        {
+          "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0002",
+          "document_id": "flipkart:ACCEHKGNZCXWRVFM",
+          "rrf_score": 0.031009615384615385,
+          "discounted_price": 999
+        }
+      ],
+      "result": {
+        "query": "I need three 15-foot male-to-male HDMI extension leads with support for audio return channel.",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": null,
+        "context_chunk_ids": [
+          "flipkart:ACCEHKGNZCXWRVFM:0000",
+          "flipkart:ACCEJHFJGSY6WSV7:0000",
+          "flipkart:ACCEHKGNZCXWRVFM:0001",
+          "flipkart:ACCEJHFJGSY6WSV7:0001",
+          "flipkart:ACCEHKGNZCXWRVFM:0002"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 1,
+        "rejected_chunk_ids": [
+          "flipkart:ACCEHKGNZCXWRVFM:0001"
+        ],
+        "recommendations": [],
+        "status": "insufficient_context",
+        "message": "The retrieved catalog evidence does not support a match."
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\n  \"status\": \"ok\",\n  \"recommendations\": [\n    {\n      \"chunk_id\": \"flipkart:ACCEHKGNZCXWRVFM:0001\",\n      \"evidence_id\": \"3.1\"\n    },\n    {\n      \"chunk_id\": \"flipkart:ACCEHKGNZCXWRVFM:0002\",\n      \"evidence_id\": \"5.2\"\n    }\n  ]\n}"
+        },
+        {
+          "stage": "relevance_review",
+          "raw_output": "{\"accepted_chunk_ids\": []}"
+        }
+      ],
+      "elapsed_seconds": 22.103,
+      "citations_valid": null
+    },
+    "criterion_checks": [
+      true,
+      true,
+      true
+    ],
+    "status": "PASS",
+    "explanation": "ok, documents: flipkart:ACCEJHFJGSY6WSV7 / insufficient_context, documents: none",
+    "manual_review": "The baseline returned the 15-foot male-to-female pack and quoted ARC support. The male-to-male query was refused."
+  }
+]

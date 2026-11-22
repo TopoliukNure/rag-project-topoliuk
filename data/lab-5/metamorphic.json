@@ -1,0 +1,485 @@
+[
+  {
+    "id": "m01",
+    "gold_query_id": "q31",
+    "original": {
+      "query": "An aquarium filter for both marine and fresh water up to INR 698",
+      "max_price_inr": 698,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+          "document_id": "flipkart:AQFEF4Q84KDGNGAF",
+          "rrf_score": 0.03278688524590164,
+          "discounted_price": 698
+        },
+        {
+          "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+          "document_id": "flipkart:PBLEGVW8CGQF2TMF",
+          "rrf_score": 0.03225806451612903,
+          "discounted_price": 649
+        },
+        {
+          "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+          "document_id": "flipkart:WFCEGE8AWTDDUAMC",
+          "rrf_score": 0.031746031746031744,
+          "discounted_price": 249
+        },
+        {
+          "chunk_id": "flipkart:BOTEEMN6NM57HSBU:0000",
+          "document_id": "flipkart:BOTEEMN6NM57HSBU",
+          "rrf_score": 0.03125,
+          "discounted_price": 549
+        },
+        {
+          "chunk_id": "flipkart:SGLEJG6VTTSYHMBD:0000",
+          "document_id": "flipkart:SGLEJG6VTTSYHMBD",
+          "rrf_score": 0.026500526500526502,
+          "discounted_price": 269
+        }
+      ],
+      "result": {
+        "query": "An aquarium filter for both marine and fresh water up to INR 698",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": 698,
+        "context_chunk_ids": [
+          "flipkart:AQFEF4Q84KDGNGAF:0000",
+          "flipkart:PBLEGVW8CGQF2TMF:0000",
+          "flipkart:WFCEGE8AWTDDUAMC:0000",
+          "flipkart:BOTEEMN6NM57HSBU:0000",
+          "flipkart:SGLEJG6VTTSYHMBD:0000"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 0,
+        "rejected_chunk_ids": [],
+        "recommendations": [],
+        "status": "insufficient_context",
+        "message": "The retrieved catalog evidence does not support a match."
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"insufficient_context\", \"recommendations\": []}"
+        }
+      ],
+      "elapsed_seconds": 13.954,
+      "citations_valid": null
+    },
+    "variant": {
+      "query": "Find a fish-tank filter for saltwater and freshwater, at most INR 698.",
+      "max_price_inr": 698,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:PBLEGVW8CGQF2TMF:0000",
+          "document_id": "flipkart:PBLEGVW8CGQF2TMF",
+          "rrf_score": 0.03252247488101534,
+          "discounted_price": 649
+        },
+        {
+          "chunk_id": "flipkart:AQFEF4Q84KDGNGAF:0000",
+          "document_id": "flipkart:AQFEF4Q84KDGNGAF",
+          "rrf_score": 0.032266458495966696,
+          "discounted_price": 698
+        },
+        {
+          "chunk_id": "flipkart:WFCEGE8AWTDDUAMC:0000",
+          "document_id": "flipkart:WFCEGE8AWTDDUAMC",
+          "rrf_score": 0.03200204813108039,
+          "discounted_price": 249
+        },
+        {
+          "chunk_id": "flipkart:SHVE9VHFFYAY8HBT:0000",
+          "document_id": "flipkart:SHVE9VHFFYAY8HBT",
+          "rrf_score": 0.028665028665028666,
+          "discounted_price": 198
+        },
+        {
+          "chunk_id": "flipkart:VSKEGCZDHMBRS5F8:0000",
+          "document_id": "flipkart:VSKEGCZDHMBRS5F8",
+          "rrf_score": 0.026050420168067225,
+          "discounted_price": 299
+        }
+      ],
+      "result": {
+        "query": "Find a fish-tank filter for saltwater and freshwater, at most INR 698.",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": 698,
+        "context_chunk_ids": [
+          "flipkart:PBLEGVW8CGQF2TMF:0000",
+          "flipkart:AQFEF4Q84KDGNGAF:0000",
+          "flipkart:WFCEGE8AWTDDUAMC:0000",
+          "flipkart:SHVE9VHFFYAY8HBT:0000",
+          "flipkart:VSKEGCZDHMBRS5F8:0000"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 0,
+        "rejected_chunk_ids": [],
+        "recommendations": [],
+        "status": "insufficient_context",
+        "message": "The retrieved catalog evidence does not support a match."
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"insufficient_context\", \"recommendations\": []}"
+        }
+      ],
+      "elapsed_seconds": 12.842,
+      "citations_valid": null
+    },
+    "recall_at_5": [
+      1.0,
+      1.0
+    ],
+    "retrieved_jaccard": 0.42857142857142855,
+    "cited_jaccard": null,
+    "criterion_checks": {
+      "same_nonzero_recall": true,
+      "retrieval_jaccard_at_least_half": false,
+      "same_expected_recommendations": false
+    },
+    "criterion": "Retain nonzero Recall@5, retrieved Jaccard >= 0.5, and the expected product set in both outputs.",
+    "status": "FAIL"
+  },
+  {
+    "id": "m02",
+    "gold_query_id": "q03",
+    "original": {
+      "query": "Find a lightweight travel rucksack with three sections, a bottle pocket and about 26 litres of room.",
+      "max_price_inr": null,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:BKPEGXYWWJPETZZA:0000",
+          "document_id": "flipkart:BKPEGXYWWJPETZZA",
+          "rrf_score": 0.03200204813108039,
+          "discounted_price": 1849
+        },
+        {
+          "chunk_id": "flipkart:RKSEGKZVBEGUFNYT:0000",
+          "document_id": "flipkart:RKSEGKZVBEGUFNYT",
+          "rrf_score": 0.03149801587301587,
+          "discounted_price": 1431
+        },
+        {
+          "chunk_id": "flipkart:BKPEGXYVX4CG7UWX:0000",
+          "document_id": "flipkart:BKPEGXYVX4CG7UWX",
+          "rrf_score": 0.03131881575727918,
+          "discounted_price": 1299
+        },
+        {
+          "chunk_id": "flipkart:SPBE2GVZMANCQNZW:0000",
+          "document_id": "flipkart:SPBE2GVZMANCQNZW",
+          "rrf_score": 0.030886196246139225,
+          "discounted_price": 4299
+        },
+        {
+          "chunk_id": "flipkart:RKSEAF7WYHJBVRHD:0000",
+          "document_id": "flipkart:RKSEAF7WYHJBVRHD",
+          "rrf_score": 0.030536130536130537,
+          "discounted_price": 2248
+        }
+      ],
+      "result": {
+        "query": "Find a lightweight travel rucksack with three sections, a bottle pocket and about 26 litres of room.",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": null,
+        "context_chunk_ids": [
+          "flipkart:BKPEGXYWWJPETZZA:0000",
+          "flipkart:RKSEGKZVBEGUFNYT:0000",
+          "flipkart:BKPEGXYVX4CG7UWX:0000",
+          "flipkart:SPBE2GVZMANCQNZW:0000",
+          "flipkart:RKSEAF7WYHJBVRHD:0000"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 1,
+        "rejected_chunk_ids": [
+          "flipkart:BKPEGXYVX4CG7UWX:0000"
+        ],
+        "recommendations": [
+          {
+            "chunk_id": "flipkart:BKPEGXYWWJPETZZA:0000",
+            "document_id": "flipkart:BKPEGXYWWJPETZZA",
+            "title": "Harissons Ergo 26 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1849,
+            "currency": "INR",
+            "evidence": "total of two spacious compartments, three quick access pockets and two side mesh pockets with one bottle lock loop. Every Ergo backpack comes with Neoprene back straps that"
+          }
+        ],
+        "status": "ok"
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"ok\", \"recommendations\": [{\"chunk_id\": \"flipkart:BKPEGXYWWJPETZZA:0000\", \"evidence_id\": \"1.4\"}, {\"chunk_id\": \"flipkart:BKPEGXYVX4CG7UWX:0000\", \"evidence_id\": \"3.1\"}]}"
+        },
+        {
+          "stage": "relevance_review",
+          "raw_output": "{\"accepted_chunk_ids\": [\"flipkart:BKPEGXYWWJPETZZA:0000\"]}"
+        }
+      ],
+      "elapsed_seconds": 23.99,
+      "citations_valid": true
+    },
+    "variant": {
+      "query": "I need a light 26-litre travel backpack with three compartments and a side pocket for a bottle.",
+      "max_price_inr": null,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:BKPEGXYVX4CG7UWX:0000",
+          "document_id": "flipkart:BKPEGXYVX4CG7UWX",
+          "rrf_score": 0.032266458495966696,
+          "discounted_price": 1299
+        },
+        {
+          "chunk_id": "flipkart:BKPEGXYWWJPETZZA:0000",
+          "document_id": "flipkart:BKPEGXYWWJPETZZA",
+          "rrf_score": 0.032266458495966696,
+          "discounted_price": 1849
+        },
+        {
+          "chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+          "document_id": "flipkart:BKPEGXYVHZBG2PUY",
+          "rrf_score": 0.03225806451612903,
+          "discounted_price": 1099
+        },
+        {
+          "chunk_id": "flipkart:BKPEBAUXZVMGHBUG:0000",
+          "document_id": "flipkart:BKPEBAUXZVMGHBUG",
+          "rrf_score": 0.03125,
+          "discounted_price": 599
+        },
+        {
+          "chunk_id": "flipkart:BKPEGUJHJFYS4FCU:0000",
+          "document_id": "flipkart:BKPEGUJHJFYS4FCU",
+          "rrf_score": 0.029877369007803793,
+          "discounted_price": 1099
+        }
+      ],
+      "result": {
+        "query": "I need a light 26-litre travel backpack with three compartments and a side pocket for a bottle.",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": null,
+        "context_chunk_ids": [
+          "flipkart:BKPEGXYVX4CG7UWX:0000",
+          "flipkart:BKPEGXYWWJPETZZA:0000",
+          "flipkart:BKPEGXYVHZBG2PUY:0000",
+          "flipkart:BKPEBAUXZVMGHBUG:0000",
+          "flipkart:BKPEGUJHJFYS4FCU:0000"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 1,
+        "rejected_chunk_ids": [],
+        "recommendations": [
+          {
+            "chunk_id": "flipkart:BKPEGXYVHZBG2PUY:0000",
+            "document_id": "flipkart:BKPEGXYVHZBG2PUY",
+            "title": "Harissons Split 26 L Backpack",
+            "category": "Bags, Wallets & Belts",
+            "discounted_price": 1099,
+            "currency": "INR",
+            "evidence": "Split backpack is the ideal travel companion for business or pleasure. Its strong polyester material has a capacity of up to 26 liters. With three spacious compartments you"
+          }
+        ],
+        "status": "ok"
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\n  \"status\": \"ok\",\n  \"recommendations\": [\n    {\n      \"chunk_id\": \"flipkart:BKPEGXYVHZBG2PUY:0000\",\n      \"evidence_id\": \"3.5\"\n    }\n  ]\n}"
+        },
+        {
+          "stage": "relevance_review",
+          "raw_output": "{\"accepted_chunk_ids\": [\"flipkart:BKPEGXYVHZBG2PUY:0000\"]}"
+        }
+      ],
+      "elapsed_seconds": 21.008,
+      "citations_valid": true
+    },
+    "recall_at_5": [
+      0.0,
+      1.0
+    ],
+    "retrieved_jaccard": 0.25,
+    "cited_jaccard": 0.0,
+    "criterion_checks": {
+      "same_nonzero_recall": false,
+      "retrieval_jaccard_at_least_half": false,
+      "same_expected_recommendations": false
+    },
+    "criterion": "Retain nonzero Recall@5, retrieved Jaccard >= 0.5, and the expected product set in both outputs.",
+    "status": "FAIL"
+  },
+  {
+    "id": "m03",
+    "gold_query_id": "q15",
+    "original": {
+      "query": "I need three 15-foot male-to-female HDMI extension leads with support for audio return channel.",
+      "max_price_inr": null,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0000",
+          "document_id": "flipkart:ACCEHKGNZCXWRVFM",
+          "rrf_score": 0.03225806451612903,
+          "discounted_price": 999
+        },
+        {
+          "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0000",
+          "document_id": "flipkart:ACCEJHFJGSY6WSV7",
+          "rrf_score": 0.032018442622950824,
+          "discounted_price": 1699
+        },
+        {
+          "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0001",
+          "document_id": "flipkart:ACCEHKGNZCXWRVFM",
+          "rrf_score": 0.03177805800756621,
+          "discounted_price": 999
+        },
+        {
+          "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0001",
+          "document_id": "flipkart:ACCEJHFJGSY6WSV7",
+          "rrf_score": 0.031746031746031744,
+          "discounted_price": 1699
+        },
+        {
+          "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0002",
+          "document_id": "flipkart:ACCEHKGNZCXWRVFM",
+          "rrf_score": 0.031009615384615385,
+          "discounted_price": 999
+        }
+      ],
+      "result": {
+        "query": "I need three 15-foot male-to-female HDMI extension leads with support for audio return channel.",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": null,
+        "context_chunk_ids": [
+          "flipkart:ACCEHKGNZCXWRVFM:0000",
+          "flipkart:ACCEJHFJGSY6WSV7:0000",
+          "flipkart:ACCEHKGNZCXWRVFM:0001",
+          "flipkart:ACCEJHFJGSY6WSV7:0001",
+          "flipkart:ACCEHKGNZCXWRVFM:0002"
+        ],
+        "generation_attempts": 1,
+        "validation_errors": [],
+        "relevance_review_attempts": 1,
+        "rejected_chunk_ids": [],
+        "recommendations": [
+          {
+            "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0000",
+            "document_id": "flipkart:ACCEJHFJGSY6WSV7",
+            "title": "C&E TV-out Cable High Speed HDMI Cable Male to Female 15 Feet, 3 Pack",
+            "category": "Home Entertainment",
+            "discounted_price": 1699,
+            "currency": "INR",
+            "evidence": "up to 240hz Refresh Rates and 48-Bit Deep Color) Supports all new HDMI advanced features such as 3D, Audio Return Channel, Ethernet, up to 7.1 DolbyÃÂ® TrueHD and"
+          }
+        ],
+        "status": "ok"
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\n  \"status\": \"ok\",\n  \"recommendations\": [\n    {\n      \"chunk_id\": \"flipkart:ACCEJHFJGSY6WSV7:0000\",\n      \"evidence_id\": \"2.2\"\n    },\n    {\n      \"chunk_id\": \"flipkart:ACCEJHFJGSY6WSV7:0001\",\n      \"evidence_id\": \"4.2\"\n    }\n  ]\n}"
+        },
+        {
+          "stage": "relevance_review",
+          "raw_output": "{\"accepted_chunk_ids\": [\"flipkart:ACCEJHFJGSY6WSV7:0000\"]}"
+        }
+      ],
+      "elapsed_seconds": 26.633,
+      "citations_valid": true
+    },
+    "variant": {
+      "query": "Find a pack of 3 HDMI cables, 15 feet long, male-to-female, with Audio Return Channel support.",
+      "max_price_inr": null,
+      "retrieved": [
+        {
+          "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0000",
+          "document_id": "flipkart:ACCEJHFJGSY6WSV7",
+          "rrf_score": 0.03278688524590164,
+          "discounted_price": 1699
+        },
+        {
+          "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0000",
+          "document_id": "flipkart:ACCEHKGNZCXWRVFM",
+          "rrf_score": 0.03200204813108039,
+          "discounted_price": 999
+        },
+        {
+          "chunk_id": "flipkart:ACCEJHFJGSY6WSV7:0001",
+          "document_id": "flipkart:ACCEJHFJGSY6WSV7",
+          "rrf_score": 0.03200204813108039,
+          "discounted_price": 1699
+        },
+        {
+          "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0001",
+          "document_id": "flipkart:ACCEHKGNZCXWRVFM",
+          "rrf_score": 0.030776515151515152,
+          "discounted_price": 999
+        },
+        {
+          "chunk_id": "flipkart:ACCEHKGNZCXWRVFM:0002",
+          "document_id": "flipkart:ACCEHKGNZCXWRVFM",
+          "rrf_score": 0.030776515151515152,
+          "discounted_price": 999
+        }
+      ],
+      "result": {
+        "query": "Find a pack of 3 HDMI cables, 15 feet long, male-to-female, with Audio Return Channel support.",
+        "catalog_notice": "Historical Flipkart catalog (2015–2016).",
+        "model": "qwen2.5:3b",
+        "max_price_inr": null,
+        "context_chunk_ids": [
+          "flipkart:ACCEJHFJGSY6WSV7:0000",
+          "flipkart:ACCEHKGNZCXWRVFM:0000",
+          "flipkart:ACCEJHFJGSY6WSV7:0001",
+          "flipkart:ACCEHKGNZCXWRVFM:0001",
+          "flipkart:ACCEHKGNZCXWRVFM:0002"
+        ],
+        "generation_attempts": 2,
+        "validation_errors": [
+          "Evidence ID must belong to the cited chunk",
+          "Evidence ID must belong to the cited chunk"
+        ],
+        "relevance_review_attempts": 0,
+        "rejected_chunk_ids": [],
+        "recommendations": [],
+        "status": "unverified",
+        "message": "Unable to produce a verified catalog recommendation."
+      },
+      "model_calls": [
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"ok\", \"recommendations\": [{\"chunk_id\": \"flipkart:ACCEJHFJGSY6WSV7:0000\", \"evidence_id\": \"3.5\"}, {\"chunk_id\": \"flipkart:ACCEJHFJGSY6WSV7:0001\", \"evidence_id\": \"3.6\"}]}"
+        },
+        {
+          "stage": "selection",
+          "raw_output": "{\"status\": \"ok\", \"recommendations\": [{\"chunk_id\": \"flipkart:ACCEJHFJGSY6WSV7:0000\", \"evidence_id\": \"3.5\"}, {\"chunk_id\": \"flipkart:ACCEJHFJGSY6WSV7:0001\", \"evidence_id\": \"3.6\"}]}"
+        }
+      ],
+      "elapsed_seconds": 30.362,
+      "citations_valid": null
+    },
+    "recall_at_5": [
+      0.6666666666666666,
+      0.6666666666666666
+    ],
+    "retrieved_jaccard": 1.0,
+    "cited_jaccard": 0.0,
+    "criterion_checks": {
+      "same_nonzero_recall": true,
+      "retrieval_jaccard_at_least_half": true,
+      "same_expected_recommendations": false
+    },
+    "criterion": "Retain nonzero Recall@5, retrieved Jaccard >= 0.5, and the expected product set in both outputs.",
+    "status": "FAIL"
+  }
+]

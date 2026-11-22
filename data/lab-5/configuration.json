@@ -1,0 +1,64 @@
+{
+  "python": "3.12.16",
+  "libraries": {
+    "chromadb": "1.3.5",
+    "numpy": "2.5.5",
+    "rank-bm25": "0.2.2",
+    "sentence-transformers": "5.1.2",
+    "torch": "2.8.0+cpu"
+  },
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "embedding_dimensions": 384,
+  "ef_search": 10,
+  "rrf_k": 60,
+  "rrf_candidate_depth": 30,
+  "top_k": 5,
+  "model": "qwen2.5:3b",
+  "ollama_port": 11505,
+  "ollama": {
+    "version": {
+      "version": "0.40.17"
+    },
+    "tags": {
+      "models": [
+        {
+          "name": "qwen2.5:3b",
+          "model": "qwen2.5:3b",
+          "modified_at": "2026-11-21T23:04:32.4838717+02:00",
+          "size": 1929912432,
+          "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen2",
+            "families": [
+              "qwen2"
+            ],
+            "parameter_size": "3.1B",
+            "quantization_level": "Q4_K_M",
+            "context_length": 32768,
+            "embedding_length": 2048,
+            "runner": "ggml"
+          },
+          "capabilities": [
+            "completion",
+            "tools"
+          ]
+        }
+      ]
+    }
+  },
+  "generation_options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 400
+  },
+  "gold_sha256": "479d81da9ac40144785e1f61cfd734d6df3e3e9ff6784dd8a680b74a008e1b4e",
+  "chunks_sha256": "af62e074dd34cca87cde021e7008a15db28adf908f1c7bd2e24bf024f2de94c8",
+  "generation_code_sha256": "0aaa96f5251631427ced38e872efeb3f6858ac3d74f42919a28b4fc2f4d0fb2e",
+  "elapsed_seconds": 931.245,
+  "unique_experiments": 47,
+  "index_config": "ef10"
+}
